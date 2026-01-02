@@ -1,4 +1,4 @@
-# Causal Inference of Customer Retention in Telco
+# [Causal Inference of Customer Retention in Telco](https://github.com/xinconggg/Portfolio-Projects/tree/main/Data%20Science/Causal%20Inference%20of%20Customer%20Retention%20in%20Telco)
 
 ## Project Overview
 Customer retention is a key metric for telecom companies, as acquiring new customers is **5–25x more expensive than retaining existing ones**. While marketing and retention teams often rely on correlations, these metrics can be misleading due to confounding factors like demographics, engagement, and service usage.  
