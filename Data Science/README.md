@@ -1,4 +1,4 @@
-# Causal Infernece of Customer Retention and Repeat Purchase in Telco
+# Causal Inference of Customer Retention in Telco
 
 ## Project Overview
 Customer retention is a key metric for telecom companies, as acquiring new customers is **5–25x more expensive than retaining existing ones**. While marketing and retention teams often rely on correlations, these metrics can be misleading due to confounding factors like demographics, engagement, and service usage.  
