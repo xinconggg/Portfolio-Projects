@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
-RAW_DATA_DIR = Path(r"C:\PATH\Multi-Asset Statistical Arbitrage Backtesting Engine\main\data\raw") # Change path accordingly
-CLEAN_DATA_DIR = Path(r"C:\PATH\Multi-Asset Statistical Arbitrage Backtesting Engine\main\data\cleaned") # Change path accordingly
+RAW_DATA_DIR = Path(r"C:\PATH\Multi_Asset_Stat_Arb_Backtesting_Engine\main\data\raw") # Change path accordingly
+CLEAN_DATA_DIR = Path(r"C:\PATH\Multi_Asset_Stat_Arb_Backtesting_Engine\main\data\cleaned") # Change path accordingly
 CLEAN_DATA_DIR.mkdir(exist_ok=True)
 
 def clean_prices(file="yahoo_prices.csv"):

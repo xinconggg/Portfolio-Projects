@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-CLEAN_DATA_DIR = Path(r"C:\PATH\Multi-Asset Statistical Arbitrage Backtesting Engine\main\data\cleaned") # Change path accordingly
+CLEAN_DATA_DIR = Path(r"C:\PATH\Multi_Asset_Stat_Arb_Backtesting_Engine\main\data\cleaned") # Change path accordingly
 
 def align_assets(price_files=None):
     # If no price files exists, "yahoo_prices_cleaned.csv" will be read
