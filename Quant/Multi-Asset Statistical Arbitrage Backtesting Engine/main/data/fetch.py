@@ -1,5 +1,4 @@
 import yfinance as yf
-import pandas as pd
 from pathlib import Path
 
 RAW_DATA_DIR = Path(r"PATH\Multi_Asset_Stat_Arb_Backtesting_Engine\main\data\raw") # Change path accordingly
