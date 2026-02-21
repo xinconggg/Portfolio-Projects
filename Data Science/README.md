@@ -1,3 +1,63 @@
+# [Data Lake Integration & Fraud Detection Automation](https://github.com/xinconggg/Portfolio-Projects/tree/main/Data%20Science/Data%20Lake%20Integration%20%26%20Analytics%20Automation)
+
+## Project Overview
+
+This project simulates a corporate **AP/GL Data Lake Pipeline** using public financial datasets. It covers data ingestion, cleaning, consolidation, analytics, and predictive fraud modeling.
+
+**Objectives:**
+- Build Python + SQL ETL pipelines for transaction data
+- Implement SQL validation rules in **MySQL** (duplicates, missing values, negative amounts)
+- Generate **Power BI dashboards** for data quality and analytics metrics
+- Detect fraudulent transactions using ML models (Logistic Regression, Random Forest, XGBoost)
+
+## Datasets
+Available on [Kaggle: Transactions Fraud Datasets](https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets)
+- `transactions_data.csv` – Transaction records  
+- `cards_data.csv` – Card details for cost center mapping  
+- `users_data.csv` – Customer demographic info  
+- `mcc_codes.json` – Merchant category codes  
+- `train_fraud_labels.json` – Optional fraud labels  
+
+## Features & ETL
+- Standardize and rename columns to corporate AP/GL schema
+- Clean financial fields (`amount`, `currency`, `dates`)
+- Integrate transactions, cards, users, MCC, and fraud labels
+- Generate synthetic enterprise fields (`invoice_number`, `currency`, `cost_center`)
+- Inject controlled dirty data to simulate real-world issues
+- Save cleaned datasets for MySQL ingestion and Power BI dashboards  
+
+## SQL Validation Rules
+- Duplicate transactions  
+- Missing `vendor_id`  
+- Negative amounts  
+
+**Gold Layer:** Cleaned, validated data ready for dashboards and ML modeling  
+
+## Predictive Fraud Modeling
+- **Target Variable:** `fraud_flag` (1 = Fraud, 0 = Legitimate)  
+- Features include transaction amount, card info, user demographics, and engineered features like `amount_to_limit_ratio`, `high_value_tx`, `transactions_per_day`, and `card_dark_web_flag`  
+- Models implemented:
+  - Logistic Regression
+  - Decision Tree
+  - Random Forest
+  - **XGBoost (Chosen for best performance)**  
+
+**Evaluation Metrics:** Accuracy, Precision, Recall, F1-score, ROC-AUC  
+
+## Interactive Streamlit App
+- **Two ways to predict fraud risk:**
+  1. **Bulk Prediction via Excel/CSV upload**
+  ![Excel-ezgif com-crop](https://github.com/user-attachments/assets/a3cef560-a2f9-4ba5-9955-15af83b4df30)
+  2. **Manual Input** for single transaction prediction
+  ![Manual-ezgif com-speed](https://github.com/user-attachments/assets/64b1bdfe-7c25-41f8-a414-395d10ce986e)
+
+- View **fraud risk** and probability  
+
+**App Command:**  
+```bash
+streamlit run app.py
+```
+
 # [Causal Inference of Customer Retention in Telco](https://github.com/xinconggg/Portfolio-Projects/tree/main/Data%20Science/Causal%20Inference%20of%20Customer%20Retention%20in%20Telco)
 
 ---
