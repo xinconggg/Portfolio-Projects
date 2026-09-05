@@ -1,9 +1,29 @@
-.venv/
-__pycache__/
-*.pyc
+__pycache__/*
+yfinance/__pycache__/*
 .ipynb_checkpoints/
-.env
+dist
 .DS_Store
-
+yfinance.egg-info
+*.pyc
+.coverage
+.idea/
+.vscode/
+build/
+*.html
+*.css
+test.ipynb
 data/raw/*
 data/processed/*
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Documentation
+/doc/build/
+/doc/_build/
+/doc/source/reference/api
+!yfinance.css
