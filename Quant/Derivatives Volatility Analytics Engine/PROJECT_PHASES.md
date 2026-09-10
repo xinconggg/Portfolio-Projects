@@ -79,14 +79,15 @@ research/
 ### Phase 1 Sub-Phases:
 - **Phase 1.1:** Raw Data Profiling
 - **Phase 1.2:** Schema & Type Normalization
-- **Phase 1.3:** Timestamp / Contract Normalization
-- **Phase 1.4:** Quote Quality
-- **Phase 1.5:** Liquidity Quality
-- **Phase 1.6:** Financial Consistency
-- **Phase 1.7:** Forward / Maturity Framework
-- **Phase 1.8:** Derived Volatility Variables
-- **Phase 1.9:** Research Dataset
-- **Phase 1.10:** Formal Data Quality Report
+- **Phase 1.3:** Vendor Convention Audit
+- **Phase 1.4:** Timestamp / Contract Normalization
+- **Phase 1.5:** Quote Quality
+- **Phase 1.6:** Liquidity Quality
+- **Phase 1.7:** Financial Consistency
+- **Phase 1.8:** Forward / Maturity Framework
+- **Phase 1.9:** Derived Volatility Variables
+- **Phase 1.10:** Research Dataset
+- **Phase 1.11:** Formal Data Quality Report
 
 ## Phase 1.1: Raw Data Profiling
 ### Research Question:
@@ -129,4 +130,44 @@ Let:
 
 **European Put (with dividends, else q = 0):** $\max(0,  Ke^{-rT} - S_0e^{-qT}) \leq P \leq Ke^{-rT}$
 
-9 
+**3) DTE**
+
+Given the following columns in our dataset:
+```text
+DTE
+EXPIRE_DATE
+EXPIRE_UNIX
+QUOTE_READTIME
+```
+We should not automatically trust `DTE`, instead we can calculate our own DTE then compare against the vendor's DTE, for example:
+
+$$
+T = \frac{t_{\mathrm{expiry}} - t_{\mathrm{quote}}}{\text{year basis}}
+$$
+
+Comparison of the DTEs might reveal:
+- rounding
+- timezone issues
+- trading-day conventions
+- expiration-time conventions
+
+### Phase 1.1 Checklist
+
+We need to know:
+- [ ] exact row & column count
+- [ ] data types
+- [ ] date coverage
+- [ ] missingness
+- [ ] duplicate structure
+- [ ] quote structure
+- [ ] volume structure
+- [ ] contract structure
+- [ ] timestamp behavior
+- [ ] IV units
+- [ ] greek units
+- [ ] preliminary anomalies
+
+Script will be stored at:
+```text
+research/01_data_quality/01_data_profile.py
+```
