@@ -94,6 +94,10 @@ Project_Root/
 │   │   │
 │   │   ├── external/
 │   │   │
+│   │   ├─ ingestion.py
+│   │   │
+│   │   ├─ schema.py
+│   │   │
 │   │   └── quality_checks.py
 │   │
 │   ├── pricing/
