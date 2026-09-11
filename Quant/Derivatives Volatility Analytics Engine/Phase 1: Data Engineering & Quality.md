@@ -227,3 +227,65 @@ Before moving on, we need to know:
 - [ ] IV units
 - [ ] greek units
 - [ ] preliminary anomalies
+
+## Phase 1.2: Schema & Type Normalization
+### Research Question:
+How should the options data be standardized so that it can be reliably processed by downstream pricing, volatility, risk and trading models?
+
+### Objective:
+Currently, the raw files contain a mixture of numeric values, blank strings, timestamps, dates and structured quote-size fields.
+Before performing any analysis, the dataset should be converted into a consistent structure while preserving the distinction between:
+- valid numerical observations
+- explicitly reported zero values
+- missing observations
+- structured string fields that requires further parsing
+
+### Normalization Rules:
+**1) Column Names:** Raw column names such as `[QUOTE_UNIXTIME]`, `[UNDERLYING_LAST]` and `[C_BID]` are to be normalized to: `quote_unixtime`, `underlying_last` and `c_bid`, without the brackets, unnecessary whitespaces and converted to lowercase while preserving original semantic meaning
+
+**2) Datetime Fields:** The following fields should be converted to pandas datetime: `quote_readtime`, `quote_date` and `expire_date` while `quote_unixtime` and `expire_unix` should remain as integer
+
+**3) Numeric Fields:** Pricing, Greeks, volatility, contract and underlying fields should be converted to numeric type
+
+**4) Blank Values:** Blank values should be converted to pandas `NaN` rather than to `0`
+
+### Phase 1.2 Checklist
+- [ ] standardized column names
+- [ ] converted datetime fields
+- [ ] converted numeric fields
+- [ ] converted blank strings to NaN
+- [ ] preserved explicit zero values
+- [ ] identified remaining structured string fields
+- [ ] confirmed normalized schema
+- [ ] confirmed normalized data types
+
+## Phase 1.3: Structural Integrity Checks
+### Research Question:
+Does the normalized options dataset have structural problems such as duplicated observations, inconsistent identifiers, invalid dates or inconsistent underlying prices that could compromise subsequent analysis?
+
+### Objective:
+Before investigating the financial properties of individual option quotes, ensure that the dataset is structurally coherent.
+
+Checks should focus on:
+- dataset dimensions
+- duplicate observations
+- duplicate option contracts
+- quote timestamps
+- underlying price consistency
+- expiration structure
+- DTE validity
+- basic price validity
+
+### Phase 1.3 Checklist
+- [ ] exact duplicate rows checked
+- [ ] duplicate contract keys checked
+- [ ] quote timestamp structure checked
+- [ ] underlying price consistency checked
+- [ ] negative DTE checked
+- [ ] zero DTE identified
+- [ ] negative option prices checked
+- [ ] crossed quotes identified
+- [ ] zero bid/ask observations identified
+- [ ] midpoint calculated
+- [ ] bid-ask spread calculated
+- [ ] relative spread calculated
