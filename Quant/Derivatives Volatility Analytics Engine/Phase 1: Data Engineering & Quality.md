@@ -151,7 +151,7 @@ Project_Root/
 - **Phase 1.12:** Final Data Quality Report
 
 ## Phase 1.1: Raw Data Profiling
-### Research Question:
+### Research Question
 What exactly is contained within the SPY options dataset and what data quality problems could affect subsequent volatility research?
 
 ### Raw Schema:
@@ -243,7 +243,7 @@ Before moving on, we need to know:
 - The raw dataset should therefore be treated as **source data rather than immediately tradable/clean market data**. Subsequent phases must distinguish between valid observations, missing information, illiquid observations, and potentially erroneous observations.
 
 ## Phase 1.2: Schema & Type Normalization
-### Research Question:
+### Research Question
 How should the options data be standardized so that it can be reliably processed by downstream pricing, volatility, risk and trading models?
 
 ### Objective:
@@ -286,7 +286,7 @@ Before performing any analysis, the dataset should be converted into a consisten
 - No cleaning or imputation of economically meaningful values was performed at this stage. Missing prices, missing IV, zero bids, zero volume, and other potentially problematic observations remain identifiable for later research decisions.
 
 ## Phase 1.3: Structural Integrity Checks
-### Research Question:
+### Research Question
 Does the normalized options dataset have structural problems such as duplicated observations, inconsistent identifiers, invalid dates or inconsistent underlying prices that could compromise subsequent analysis?
 
 ### Objective:
@@ -317,7 +317,7 @@ Checks should focus on:
 - [ ] relative spread calculated
 
 ## Phase 1.4: Timestamp, Expiration & DTE Validation
-### Research Question:
+### Research Question
 Are the quote timestamps, expiration timestamps and vendor-provided `DTE` values internally consistent? What time-to-expiration convention does the dataset actually use?
 
 ### Why this phase is important
@@ -371,3 +371,44 @@ T_{\mathrm{year}} =
 {\text{seconds per year}}
 $$
 
+## Phase 1.5: Option Price & Market Consistency
+### Research Question
+Are the observed option prices and quotes economically consistent with the underlying price, strike, time to expiration and basic no-arbitrage relationships?
+
+### Scope
+We should investigate four areas:
+
+**1) Option Price Bounds:** For European-style options, using the appropriate discounting assumptions:
+  - **European Call (with dividends, else q = 0):** $\max(0, S_0e^{-qT} - Ke^{-rT}) \leq C \leq S_0e^{-qT}$
+  - **European Put (with dividends, else q = 0):** $\max(0,  Ke^{-rT} - S_0e^{-qT}) \leq P \leq Ke^{-rT}$
+    
+**2) Call/Put Quote Relationships:** Examine whether call and put prices behave sensibly relative to each other.  
+Eventually, leading to put-call parity: $C - P = S_0e^{-qT} - Ke^{-rT})$
+
+**3) Price Monotonicity:** Option prices should generally exhibit sensible relationships with strike:  
+  - **Call:** $K_1 < K_2 \Rightarrow C(K_1) \geq C(K_2)$
+  - **Put:** $K_1 < K_2 \Rightarrow P(K_1) \leq P(K_2)$
+
+**4) Vendor IV & Greek Sanity:** Even though the dataset already contains vendor-provided IV and greeks, but before trusting these fields, we have to investigate:
+  - negative/zero/extremely-large IV
+  - delta outside theoretical ranges
+  - call/put delta relationships
+  - negative gamma
+  - negative/positive vega inconsistencies
+  - suspicious Greek values near expiration
+  - Greeks associated with missing/invalid quotes
+
+### Phase 1.5 Checklist
+- [ ] call/put price lower-bound/upper-bound sanity check
+- [ ] identify observations requiring discounting assumptions
+- [ ] call/put price monotonicity checked
+- [ ] call/put price relationship examined
+- [ ] preliminary put-call parity diagnostics
+- [ ] negative/zero/extremely-large IV checked
+- [ ] call/put delta bounds checked
+- [ ] gamma sanity checked
+- [ ] vega sanity checked
+- [ ] theta sanity checked
+- [ ] rho sanity checked
+- [ ] vendor Greek anomalies documented
+- [ ] no-arbitrage violations separated from data-quality errors
