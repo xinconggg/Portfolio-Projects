@@ -140,7 +140,7 @@ Project_Root/
 - **Phase 1.1:** Raw Data Profiling
 - **Phase 1.2:** Schema & Type Normalization
 - **Phase 1.3:** Structural Integrity Checks
-- **Phase 1.4:** Quote Integrity Checks
+- **Phase 1.4:** Timestamp, Expiration & DTE Validation
 - **Phase 1.5:** Contract / Expiration Validation
 - **Phase 1.6:** Option Price & IV Validation
 - **Phase 1.7:** Greeks Validation
@@ -289,3 +289,42 @@ Checks should focus on:
 - [ ] midpoint calculated
 - [ ] bid-ask spread calculated
 - [ ] relative spread calculated
+
+## Phase 1.4: Timestamp, Expiration & DTE Validation
+### Research Question:
+Are the quote timestamps, expiration timestamps and vendor-provided `DTE` values internally consistent? What time-to-expiration convention does the dataset actually use?
+
+### Why this phase is important
+Time to expiration is fundamental to almost every subsequent component of this project:
+- Black-Scholes pricing
+- Implied volatility calculation
+- Volatility surface construction
+- SVI calibration
+- Greeks
+- Hedging
+- Volatility forecasting
+- Historical strategy backtesting
+
+A small error in `T` can affect short-dated option pricing and implied volatility. Hence, we should not automatically assume that the vendor-provided `DTE` is correct and should construct time-to-expiration independently from the available timestamps and determine how closely it agrees with the provided value.
+
+### Relevant Raw Columns:
+| Category          | Columns                                                              |
+| ----------------- | -------------------------------------------------------------------- |
+| Quote Timestamp         | `QUOTE_UNIXTIME`, `QUOTE_READTIME`, `QUOTE_DATE`, `QUOTE_TIME_HOURS` |
+| Expiration Timestamp        | `EXPIRE_UNIX`, `EXPIRE_DATE`                                                    |
+| Vendor time-to-expiration | DTE |
+
+### Phase 1.4 Checklist
+- [ ] quote timestamp consistency
+- [ ] quote date consistency
+- [ ] quote time consistency
+- [ ] expiration timestamp consistency
+- [ ] expiration date consistency
+- [ ] vendor DTE consistency
+- [ ] independently calculated DTE
+- [ ] vendor vs calculated DTE differences
+- [ ] DTE = 0 behavior
+- [ ] DTE < 0 behavior
+- [ ] same-expiration DTE consistency
+- [ ] expiration-date structure
+- [ ] final time-to-expiration convention for downstream pricing
