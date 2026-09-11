@@ -52,28 +52,84 @@ Produce a research data pipeline
 
 ### Phase 1 Architecture:
 ``` text
-src/
-└── data/
-    ├── __init__.py
-    ├── schema.py
-    ├── ingestion.py
-    ├── normalization.py
-    ├── validation.py
-    ├── cleaning.py
-    ├── features.py
-    └── quality_report.py
-```
-
-And:
-
-``` text
-research/
-└── 01_data_quality/
-    ├── README.md
-    ├── 01_data_profile.ipynb
-    ├── 02_quality_analysis.ipynb
-    ├── figures/
-    └── tables/
+Project_Root/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── data/
+│   └── README.md
+│
+├── research/
+│   ├── 01_data_quality/
+│   │   ├── README.md
+│   │   ├── 01_raw_data_profile.ipynb
+│   │   ├── 02_data_quality_analysis.ipynb
+│   │   └── checks
+|   |        └── 01_ingestion_check.ipynb
+│   └── README.md
+│
+├── src/
+│   │
+│   ├── config/
+│   │   ├── __init__.py
+│   │   └── settings.py
+│   │
+│   ├── data/
+│   │   ├── __init__.py
+│   │   │
+│   │   ├── raw/
+│   │   │   └── SPY/
+│   │   │       ├── 2010/
+│   │   │       │   ├── spy_eod_201001.txt
+│   │   │       │   ├── spy_eod_201002.txt
+│   │   │       │   ├── ...
+│   │   │       │   └── spy_eod_201012.txt
+|   |   |       ├── ...
+│   │   │       └── 2023
+│   │   │             └── ...
+│   │   ├── processed/
+│   │   │   └── SPY/...
+│   │   │
+│   │   ├── external/
+│   │   │
+│   │   └── quality_checks.py
+│   │
+│   ├── pricing/
+│   │   └── __init__.py
+│   │
+│   ├── volatility/
+│   │   └── __init__.py
+│   │
+│   ├── calibration/
+│   │   └── __init__.py
+│   │
+│   ├── greeks/
+│   │   └── __init__.py
+│   │
+│   ├── portfolio/
+│   │   └── __init__.py
+│   │
+│   ├── hedging/
+│   │   └── __init__.py
+│   │
+│   ├── execution/
+│   │   └── __init__.py
+│   │
+│   ├── backtesting/
+│   │   └── __init__.py
+│   │
+│   ├── statistics/
+│   │   └── __init__.py
+│   │
+│   └── utils/
+│       └── __init__.py
+│
+└── tests/
+    ├── test_data_quality.py
+    ├── test_data_loader.py
+    └── test_quote_metrics.py
 ```
 
 ### Phase 1 Sub-Phases:
@@ -153,7 +209,7 @@ Comparison of the DTEs might reveal:
 
 ### Phase 1.1 Checklist
 
-We need to know:
+Before moving on, we need to know:
 - [ ] exact row & column count
 - [ ] data types
 - [ ] date coverage
@@ -166,8 +222,3 @@ We need to know:
 - [ ] IV units
 - [ ] greek units
 - [ ] preliminary anomalies
-
-Script will be stored at:
-```text
-research/01_data_quality/01_data_profile.py
-```
