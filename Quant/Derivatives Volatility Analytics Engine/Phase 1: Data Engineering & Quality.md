@@ -228,6 +228,20 @@ Before moving on, we need to know:
 - [ ] greek units
 - [ ] preliminary anomalies
 
+### Phase 1.1 Findings
+- The January 2010 sample contains **18,668 rows and 33 columns**
+- The dataset contains both call and put market data, vendor-provided implied volatility, Greeks, volume, quote sizes, and strike-distance metrics
+- Several originally string/object fields contain blank values rather than pandas-level `NaN` values. These include `C_IV`, `C_VOLUME`, `P_IV`, and `P_VOLUME`
+- After ingestion and type normalization, these blank values are converted into proper pandas missing values
+- The quote timestamp occurs at a single time of **16:00** for all observations in this EOD sample
+- The underlying price is constant across all contracts sharing the same quote timestamp
+- No duplicate contract keys were identified in the January sample
+- The sample contains observations with `DTE = 0`, corresponding to contracts observed on their expiration date
+- The dataset contains a substantial number of zero-volume observations and missing-volume observations. These should not automatically be interpreted as equivalent.
+- Option bid/ask fields contain zero bids and a smaller number of zero asks. These require separate treatment from missing quotes.
+- Vendor IV and Greek fields contain unusual values in some observations, including negative or zero values in fields where such values may require validation. These will be investigated further rather than removed at the raw-data stage.
+- The raw dataset should therefore be treated as **source data rather than immediately tradable/clean market data**. Subsequent phases must distinguish between valid observations, missing information, illiquid observations, and potentially erroneous observations.
+
 ## Phase 1.2: Schema & Type Normalization
 ### Research Question:
 How should the options data be standardized so that it can be reliably processed by downstream pricing, volatility, risk and trading models?
@@ -258,6 +272,18 @@ Before performing any analysis, the dataset should be converted into a consisten
 - [ ] identified remaining structured string fields
 - [ ] confirmed normalized schema
 - [ ] confirmed normalized data types
+
+### Findings
+- The raw column names were normalized from bracketed uppercase names such as `[QUOTE_READTIME]` to lowercase snake_case names such as `quote_readtime`
+- Timestamp fields were successfully converted to pandas datetime types:
+  - `quote_readtime`
+  - `quote_date`
+  - `expire_date`
+- Numeric market-data fields were successfully converted to appropriate numeric types
+- Previously blank string values in IV, volume, price, and quote fields were converted into proper pandas missing values
+- `c_size` and `p_size` remain object/string fields because their values represent quote sizes in a compound format such as `"20 x 20"`
+- After normalization, missingness is explicitly represented by pandas `NaN`, allowing subsequent quality checks to distinguish missing observations from valid zero values
+- No cleaning or imputation of economically meaningful values was performed at this stage. Missing prices, missing IV, zero bids, zero volume, and other potentially problematic observations remain identifiable for later research decisions.
 
 ## Phase 1.3: Structural Integrity Checks
 ### Research Question:
@@ -328,3 +354,20 @@ A small error in `T` can affect short-dated option pricing and implied volatilit
 - [ ] same-expiration DTE consistency
 - [ ] expiration-date structure
 - [ ] final time-to-expiration convention for downstream pricing
+
+### Phase 1.4 Findings
+- Vendor DTE is consistent with the difference between `EXPIRE_UNIX` and `QUOTE_UNIXTIME`
+- Maximum observed difference is 0.001667 days, which is equivalent to one minute
+- Only 2 difference values occur: 0 and 0.001667
+- Above point indicates that the vendor DTE is effectively consistent with timestamp-based time-to-expiration, subject to rounding/time precision
+- DTE = 0 observations occur when quote and expiration timestamps are identical on expiration date
+- No negative DTE observations were found
+
+As such, for downstream pricing the revised formula will be used, rather than relying on the rounded vendor `DTE`:
+
+$$
+T_{\mathrm{year}} =
+\frac{\mathrm{EXPIRE\_UNIX} - \mathrm{QUOTE\_UNIXTIME}}
+{\text{seconds per year}}
+$$
+
