@@ -1,4 +1,4 @@
-# Phase 1: Data Engineering
+# Phase 1: Data Engineering & Quality
 ## Phase 1.0: What Phase 1 will Produce
 ### Aim: 
 Produce a research data pipeline
@@ -139,15 +139,16 @@ Project_Root/
 ### Phase 1 Sub-Phases:
 - **Phase 1.1:** Raw Data Profiling
 - **Phase 1.2:** Schema & Type Normalization
-- **Phase 1.3:** Vendor Convention Audit
-- **Phase 1.4:** Timestamp / Contract Normalization
-- **Phase 1.5:** Quote Quality
-- **Phase 1.6:** Liquidity Quality
-- **Phase 1.7:** Financial Consistency
-- **Phase 1.8:** Forward / Maturity Framework
-- **Phase 1.9:** Derived Volatility Variables
-- **Phase 1.10:** Research Dataset
-- **Phase 1.11:** Formal Data Quality Report
+- **Phase 1.3:** Structural Integrity Checks
+- **Phase 1.4:** Quote Integrity Checks
+- **Phase 1.5:** Contract / Expiration Validation
+- **Phase 1.6:** Option Price & IV Validation
+- **Phase 1.7:** Greeks Validation
+- **Phase 1.8:** Put-Call Parity Diagnostic 
+- **Phase 1.9:** Forward / Interest Rate Inputs
+- **Phase 1.10:** Liquidity & Tradability Filters
+- **Phase 1.11:** Processed Data Construction
+- **Phase 1.12:** Final Data Quality Report
 
 ## Phase 1.1: Raw Data Profiling
 ### Research Question:
