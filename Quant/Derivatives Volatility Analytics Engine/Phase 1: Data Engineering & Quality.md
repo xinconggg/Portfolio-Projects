@@ -373,7 +373,7 @@ $$
 
 ## Phase 1.5: Option Price & Market Consistency
 ### Research Question
-Are the observed option prices and quotes economically consistent with the underlying price, strike, time to expiration and basic no-arbitrage relationships?
+Are the observed option prices and quotes economically consistent with the underlying prices and theoretical no-arbitrage bounds and how do traded last prices compare against quote midpoint prices?
 
 ### Scope
 We should investigate four areas:
