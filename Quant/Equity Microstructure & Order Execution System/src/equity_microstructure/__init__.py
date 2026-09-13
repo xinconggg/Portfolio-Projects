@@ -1,0 +1,1 @@
+"""Equity Microstructure & Order Execution research framework."""

@@ -1,0 +1,1333 @@
+{
+  "file": "C:\\Users\\Admin\\Desktop\\Python\\Portfolio Projects\\Quant\\Equity Microstructure & Order Execution System\\data\\raw\\taq\\taq.csv",
+  "sample_rows": 1000,
+  "n_columns": 102,
+  "columns": [
+    {
+      "name": "date",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "06/04/1993",
+        "07/04/1993",
+        "08/04/1993",
+        "12/04/1993",
+        "13/04/1993"
+      ]
+    },
+    {
+      "name": "symbol",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "AAPL",
+        "AAPL",
+        "AAPL",
+        "AAPL",
+        "AAPL"
+      ]
+    },
+    {
+      "name": "QTime_1pm",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "12:03:44",
+        "12:26:42",
+        "12:48:23",
+        "11:46:35",
+        "12:28:16"
+      ]
+    },
+    {
+      "name": "BB_1pm",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        49.25,
+        48.75,
+        49.25,
+        50.0,
+        50.75
+      ]
+    },
+    {
+      "name": "BO_1pm",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        49.5,
+        49.0,
+        49.5,
+        50.25,
+        51.0
+      ]
+    },
+    {
+      "name": "MID_1pm",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        49.375,
+        48.875,
+        49.375,
+        50.125,
+        50.875
+      ]
+    },
+    {
+      "name": "QTime_c1",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "15:56:23",
+        "15:55:10",
+        "14:53:33",
+        "15:50:31",
+        "15:59:18"
+      ]
+    },
+    {
+      "name": "BB_c1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        48.75,
+        50.25,
+        49.5,
+        50.0,
+        48.5
+      ]
+    },
+    {
+      "name": "BO_c1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        49.0,
+        50.5,
+        49.75,
+        50.5,
+        48.75
+      ]
+    },
+    {
+      "name": "Mid_c1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        48.875,
+        50.375,
+        49.625,
+        50.25,
+        48.625
+      ]
+    },
+    {
+      "name": "QTime_4pm",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "15:56:23",
+        "15:55:10",
+        "14:53:33",
+        "15:50:31",
+        "15:59:18"
+      ]
+    },
+    {
+      "name": "BB_4pm",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        48.75,
+        50.25,
+        49.5,
+        50.0,
+        48.5
+      ]
+    },
+    {
+      "name": "BO_4pm",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        49.0,
+        50.5,
+        49.75,
+        50.5,
+        48.75
+      ]
+    },
+    {
+      "name": "Mid_4pm",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        48.875,
+        50.375,
+        49.625,
+        50.25,
+        48.625
+      ]
+    },
+    {
+      "name": "LQTime",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "15:56:23",
+        "15:55:10",
+        "14:53:33",
+        "15:50:31",
+        "15:59:18"
+      ]
+    },
+    {
+      "name": "LBB",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        48.75,
+        50.25,
+        49.5,
+        50.0,
+        48.5
+      ]
+    },
+    {
+      "name": "LBO",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        49.0,
+        50.5,
+        49.75,
+        50.5,
+        48.75
+      ]
+    },
+    {
+      "name": "LMid",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        48.875,
+        50.375,
+        49.625,
+        50.25,
+        48.625
+      ]
+    },
+    {
+      "name": "OTime",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "9:30:06",
+        "9:30:10",
+        "9:30:06",
+        "9:30:07",
+        "9:30:03"
+      ]
+    },
+    {
+      "name": "OPrice",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        50.0,
+        49.0,
+        50.0,
+        49.5,
+        50.5
+      ]
+    },
+    {
+      "name": "DTime",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "15:59:59",
+        "15:59:58",
+        "15:59:35",
+        "15:59:44",
+        "15:59:57"
+      ]
+    },
+    {
+      "name": "DPrice",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        49.0,
+        50.5,
+        49.75,
+        50.0,
+        48.25
+      ]
+    },
+    {
+      "name": "Vol_oc",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        1484800,
+        1377300,
+        1449700,
+        702100,
+        1402900
+      ]
+    },
+    {
+      "name": "Value_oc",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        73357750.0,
+        67990562.5,
+        72228875.0,
+        35270500.0,
+        70449200.0
+      ]
+    },
+    {
+      "name": "LTTime",
+      "dtype": "str",
+      "non_null_sample": 985,
+      "null_sample": 15,
+      "example_values": [
+        "16:26:12",
+        "16:26:31",
+        "17:00:19",
+        "16:35:53",
+        "16:23:53"
+      ]
+    },
+    {
+      "name": "LPrice",
+      "dtype": "float64",
+      "non_null_sample": 985,
+      "null_sample": 15,
+      "example_values": [
+        48.875,
+        50.75,
+        50.25,
+        50.25,
+        49.125
+      ]
+    },
+    {
+      "name": "TTime_1pm",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "12:59:57",
+        "12:59:36",
+        "12:59:56",
+        "12:59:25",
+        "12:58:26"
+      ]
+    },
+    {
+      "name": "Price_1pm",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        49.5,
+        48.875,
+        49.5,
+        50.125,
+        50.75
+      ]
+    },
+    {
+      "name": "TTime_4pm",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "15:59:59",
+        "15:59:58",
+        "15:59:35",
+        "15:59:44",
+        "15:59:57"
+      ]
+    },
+    {
+      "name": "Price_4pm",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        49.0,
+        50.5,
+        49.75,
+        50.0,
+        48.25
+      ]
+    },
+    {
+      "name": "CPrc",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        49.0,
+        50.5,
+        49.75,
+        50.0,
+        48.25
+      ]
+    },
+    {
+      "name": "CTime",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "15:59:59",
+        "15:59:58",
+        "15:59:35",
+        "15:59:44",
+        "15:59:57"
+      ]
+    },
+    {
+      "name": "CPrc2",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        49.0,
+        50.5,
+        49.75,
+        50.0,
+        48.25
+      ]
+    },
+    {
+      "name": "CTime2",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "15:59:59",
+        "15:59:58",
+        "15:59:35",
+        "15:59:44",
+        "15:59:57"
+      ]
+    },
+    {
+      "name": "Ret_pre_t",
+      "dtype": "float64",
+      "non_null_sample": 38,
+      "null_sample": 962,
+      "example_values": [
+        0.0209431738,
+        0.0,
+        -0.004705891,
+        -0.004535155,
+        0.0
+      ]
+    },
+    {
+      "name": "Ret_mkt_t",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        -0.020202707,
+        0.0301530382,
+        -0.005012542,
+        0.0100503359,
+        -0.045577508
+      ]
+    },
+    {
+      "name": "Ret_post_t",
+      "dtype": "float64",
+      "non_null_sample": 142,
+      "null_sample": 858,
+      "example_values": [
+        0.0100000833,
+        0.0053050522,
+        -0.005194817,
+        0.0069204428,
+        0.0098040001
+      ]
+    },
+    {
+      "name": "MFCount",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        12,
+        23,
+        22,
+        15,
+        50
+      ]
+    },
+    {
+      "name": "NumTrades_t",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        1032,
+        922,
+        776,
+        661,
+        1037
+      ]
+    },
+    {
+      "name": "NumTrades_m",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        1019,
+        901,
+        769,
+        641,
+        987
+      ]
+    },
+    {
+      "name": "SumVolume_t",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        1503300,
+        1454000,
+        1459200,
+        830800,
+        1468600
+      ]
+    },
+    {
+      "name": "SumVolume_m",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        1484800,
+        1377300,
+        1449700,
+        702100,
+        1402900
+      ]
+    },
+    {
+      "name": "SumValue_b",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "SumValue_m",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        73357750.0,
+        67990562.5,
+        72228875.0,
+        35270500.0,
+        70449200.0
+      ]
+    },
+    {
+      "name": "NumISOTrades_m",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "SumISOVolume_m",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "SumISOValue_m",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "NumOddLotTrades_m",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "SumOddLotVolume_m",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "SumOddLotValue_m",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "NumMixedLotTrades_m",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "SumMixedLotVolume_m",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "SumMixedLotValue_m",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "BuyNumTrades_LR1",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        527,
+        560,
+        401,
+        362,
+        532
+      ]
+    },
+    {
+      "name": "SellNumTrades_LR1",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        505,
+        362,
+        375,
+        299,
+        505
+      ]
+    },
+    {
+      "name": "BuyVol_LR1",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        651000,
+        816300,
+        700800,
+        368400,
+        649200
+      ]
+    },
+    {
+      "name": "SellVol_LR1",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        852300,
+        637700,
+        758400,
+        462400,
+        819400
+      ]
+    },
+    {
+      "name": "BuyDollar_LR1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        32242250.0,
+        40470150.0,
+        34983112.5,
+        18512162.5,
+        32724925.0
+      ]
+    },
+    {
+      "name": "SellDollar_LR1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        42018362.5,
+        31402987.5,
+        37716750.0,
+        23193887.5,
+        40913662.5
+      ]
+    },
+    {
+      "name": "ESpreadDollar_Avg1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.2040939922,
+        0.2521691974,
+        0.2319587629,
+        0.2647503782,
+        0.2404773385
+      ]
+    },
+    {
+      "name": "ESpreadPct_Avg1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0041327556,
+        0.0051124212,
+        0.0046625858,
+        0.0052775591,
+        0.0047963703
+      ]
+    },
+    {
+      "name": "RSpreadDollar_Avg1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.160125969,
+        0.1849240781,
+        0.1791237113,
+        0.1868381241,
+        0.2021456123
+      ]
+    },
+    {
+      "name": "RSpreadPct_Avg1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0032430455,
+        0.0037582517,
+        0.0036011008,
+        0.003728264,
+        0.004030322
+      ]
+    },
+    {
+      "name": "PriceImpactDollar_Avg1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0439680233,
+        0.0672451193,
+        0.0528350515,
+        0.0779122542,
+        0.0383317261
+      ]
+    },
+    {
+      "name": "PriceImpactPct_Avg1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0008897101,
+        0.0013541695,
+        0.001061485,
+        0.0015492951,
+        0.0007660483
+      ]
+    },
+    {
+      "name": "ESpreadDollar_VW1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.2279948539,
+        0.2425165452,
+        0.2405682421,
+        0.2785184194,
+        0.2373502972
+      ]
+    },
+    {
+      "name": "ESpreadDollar_SW1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.2277156921,
+        0.2423314993,
+        0.2404057018,
+        0.2788577275,
+        0.2375136184
+      ]
+    },
+    {
+      "name": "ESpreadPct_VW1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0046122223,
+        0.0049056883,
+        0.0048263793,
+        0.0055496255,
+        0.004737534
+      ]
+    },
+    {
+      "name": "ESpreadPct_SW1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0046068786,
+        0.0049027945,
+        0.0048232744,
+        0.0055565123,
+        0.0047418913
+      ]
+    },
+    {
+      "name": "RSpreadDollar_SW1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.1747738309,
+        0.1695323246,
+        0.1872601425,
+        0.2080524795,
+        0.2186606292
+      ]
+    },
+    {
+      "name": "RSpreadDollar_VW1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.1752333084,
+        0.1693561711,
+        0.1876902621,
+        0.2075638606,
+        0.2193484836
+      ]
+    },
+    {
+      "name": "RSpreadPct_SW1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0035334201,
+        0.0034379655,
+        0.0037553259,
+        0.0041469827,
+        0.0043522188
+      ]
+    },
+    {
+      "name": "RSpreadPct_VW1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0035424823,
+        0.0034338211,
+        0.0037638538,
+        0.0041371628,
+        0.0043650361
+      ]
+    },
+    {
+      "name": "PriceImpactDollar_VW1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0527615455,
+        0.0731603741,
+        0.05287798,
+        0.0709545588,
+        0.0180018136
+      ]
+    },
+    {
+      "name": "PriceImpactDollar_SW1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0529418612,
+        0.0727991747,
+        0.0531455592,
+        0.070805248,
+        0.0188529892
+      ]
+    },
+    {
+      "name": "PriceImpactPct_VW1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        2.17306e-05,
+        2.96336e-05,
+        2.14354e-05,
+        2.80784e-05,
+        7.7713755e-06
+      ]
+    },
+    {
+      "name": "PriceImpactPct_SW1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0528434422,
+        0.0727563338,
+        0.0529368578,
+        0.0709054405,
+        0.0186778017
+      ]
+    },
+    {
+      "name": "IVol_t_m",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        9.5388327e-06,
+        1.66082e-05,
+        1.32906e-05,
+        1.724e-05,
+        1.29672e-05
+      ]
+    },
+    {
+      "name": "IVol_q_m",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        4.1488877e-06,
+        5.6482766e-06,
+        6.1903828e-06,
+        6.2382575e-06,
+        4.9747548e-06
+      ]
+    },
+    {
+      "name": "NumExtremeOfr_m",
+      "dtype": "float64",
+      "non_null_sample": 209,
+      "null_sample": 791,
+      "example_values": [
+        5.0,
+        2.0,
+        4.0,
+        1.0,
+        4.0
+      ]
+    },
+    {
+      "name": "NumExtremeBid_m",
+      "dtype": "float64",
+      "non_null_sample": 283,
+      "null_sample": 717,
+      "example_values": [
+        3.0,
+        2.0,
+        3.0,
+        1.0,
+        6.0
+      ]
+    },
+    {
+      "name": "QSpreadDollar_EW_m",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.25,
+        0.34375,
+        0.3190789474,
+        0.3,
+        0.3051470588
+      ]
+    },
+    {
+      "name": "QSpreadPct_EW_m",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0050789394,
+        0.0069361772,
+        0.0064156748,
+        0.0059655181,
+        0.0060930079
+      ]
+    },
+    {
+      "name": "QSpreadDollar_TW_m",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.25,
+        0.34375,
+        0.3190789474,
+        0.3,
+        0.2992424242
+      ]
+    },
+    {
+      "name": "QSpreadPct_TW_m",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0050789394,
+        0.0069361772,
+        0.0064156748,
+        0.0059655181,
+        0.0059730889
+      ]
+    },
+    {
+      "name": "TOfrDollar_TW_m",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        49347.826087,
+        49750.0,
+        49881.578947,
+        50450.0,
+        50250.0
+      ]
+    },
+    {
+      "name": "TBidDollar_TW_m",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        49097.826087,
+        49406.25,
+        49569.078947,
+        50150.0,
+        49950.757576
+      ]
+    },
+    {
+      "name": "TOfrShares_TW_m",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "TBidShares_TW_m",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "BOfrDollar_TW_m",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        49347.826087,
+        49750.0,
+        49881.578947,
+        50450.0,
+        50250.0
+      ]
+    },
+    {
+      "name": "BBidDollar_TW_m",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        49097.826087,
+        49406.25,
+        49569.078947,
+        50150.0,
+        49950.757576
+      ]
+    },
+    {
+      "name": "BOfrShares_TW_m",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "BBidShares_TW_m",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "VarianceRatio1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.1643831037,
+        0.004878209,
+        0.1590614635,
+        0.1029160851,
+        0.2118603849
+      ]
+    },
+    {
+      "name": "VarianceRatio2",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.2057281433,
+        0.1133262606,
+        0.0303142674,
+        0.4801461632,
+        0.2297725199
+      ]
+    },
+    {
+      "name": "TSignSqrtDVol1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        6.5763745e-07,
+        8.182826e-07,
+        3.3933118e-07,
+        1.2427063e-06,
+        8.3516737e-07
+      ]
+    },
+    {
+      "name": "TSignSqrtDVol2",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        5.9421655e-07,
+        7.5854666e-07,
+        3.3206207e-07,
+        1.232305e-06,
+        7.3228144e-07
+      ]
+    },
+    {
+      "name": "NObsUsed1",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        78,
+        78,
+        78,
+        76,
+        78
+      ]
+    },
+    {
+      "name": "NObsUsed2",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        82,
+        84,
+        79,
+        81,
+        83
+      ]
+    },
+    {
+      "name": "NumTimeUnitsWithTrade1",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ]
+    },
+    {
+      "name": "NumTimeUnitsWithTrade2",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        78,
+        78,
+        78,
+        76,
+        78
+      ]
+    },
+    {
+      "name": "HIndex1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0957944106,
+        0.1173508842,
+        0.1128037054,
+        0.1251451086,
+        0.1065996947
+      ]
+    }
+  ]
+}

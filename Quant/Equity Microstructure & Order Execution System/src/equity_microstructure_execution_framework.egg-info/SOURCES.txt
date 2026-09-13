@@ -1,0 +1,14 @@
+pyproject.toml
+setup.py
+src/equity_microstructure/__init__.py
+src/equity_microstructure/config.py
+src/equity_microstructure/data/__init__.py
+src/equity_microstructure/data/inventory/__init__.py
+src/equity_microstructure/data/metadata/__init__.py
+src/equity_microstructure/data/readers/__init__.py
+src/equity_microstructure/data/validation/__init__.py
+src/equity_microstructure_execution_framework.egg-info/PKG-INFO
+src/equity_microstructure_execution_framework.egg-info/SOURCES.txt
+src/equity_microstructure_execution_framework.egg-info/dependency_links.txt
+src/equity_microstructure_execution_framework.egg-info/requires.txt
+src/equity_microstructure_execution_framework.egg-info/top_level.txt

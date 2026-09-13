@@ -1,0 +1,2 @@
+path,relative_path,filename,extension,parent_directory,size_bytes,modified_timestamp,dataset,inferred_year,compressed,file_type,hash_type,hash_value
+C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\raw\taqm\taqm.csv,data\raw\taqm\taqm.csv,taqm.csv,.csv,C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\raw\taqm,160467525,2026-09-12T14:32:45.722014+00:00,TAQM,,False,csv,,

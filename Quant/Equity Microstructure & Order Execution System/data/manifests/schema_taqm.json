@@ -1,0 +1,1944 @@
+{
+  "file": "C:\\Users\\Admin\\Desktop\\Python\\Portfolio Projects\\Quant\\Equity Microstructure & Order Execution System\\data\\raw\\taqm\\taqm.csv",
+  "sample_rows": 1000,
+  "n_columns": 149,
+  "columns": [
+    {
+      "name": "DATE",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "02/01/2013",
+        "03/01/2013",
+        "04/01/2013",
+        "07/01/2013",
+        "08/01/2013"
+      ]
+    },
+    {
+      "name": "SYM_ROOT",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "AAPL",
+        "AAPL",
+        "AAPL",
+        "AAPL",
+        "AAPL"
+      ]
+    },
+    {
+      "name": "SYM_SUFFIX",
+      "dtype": "str",
+      "non_null_sample": 446,
+      "null_sample": 554,
+      "example_values": [
+        "PRD",
+        "PRE",
+        "PRH",
+        "PRI",
+        "PRJ"
+      ]
+    },
+    {
+      "name": "BuyNumTrades_LR",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        56434,
+        36467,
+        56660,
+        49539,
+        46940
+      ]
+    },
+    {
+      "name": "SellNumTrades_LR",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        54522,
+        35546,
+        62999,
+        48425,
+        44607
+      ]
+    },
+    {
+      "name": "total_trade",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        110956,
+        72013,
+        119659,
+        97964,
+        91547
+      ]
+    },
+    {
+      "name": "BuyVol_LR",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        9529907,
+        6115797,
+        9688170,
+        8326685,
+        7791319
+      ]
+    },
+    {
+      "name": "SellVol_LR",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        9040309,
+        5867752,
+        10660948,
+        8078833,
+        7675555
+      ]
+    },
+    {
+      "name": "total_vol",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        18570216,
+        11983549,
+        20349118,
+        16405518,
+        15466874
+      ]
+    },
+    {
+      "name": "avg_buy_price_LR",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        548.28633091,
+        545.9269419,
+        530.33276351,
+        522.30731376,
+        525.60702995
+      ]
+    },
+    {
+      "name": "avg_sell_price_LR",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        548.14623756,
+        545.54440866,
+        530.41111084,
+        522.24254165,
+        525.51960375
+      ]
+    },
+    {
+      "name": "buy_dv_LR",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        5227887051.4,
+        3338770655.9,
+        5138992803.0,
+        4348929188.3,
+        4095456157.1
+      ]
+    },
+    {
+      "name": "sell_dv_LR",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        4955066906.1,
+        3201201824.6,
+        5654620105.2,
+        4218439541.8,
+        4033437025.3
+      ]
+    },
+    {
+      "name": "total_dv_LR",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        10182953957.0,
+        6539972480.5,
+        10793612908.0,
+        8567368730.1,
+        8128893182.4
+      ]
+    },
+    {
+      "name": "vwavg_buy_price_LR",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        548.57692225,
+        545.92568326,
+        530.43999053,
+        522.28818411,
+        525.64349594
+      ]
+    },
+    {
+      "name": "vwavg_sell_price_LR",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        548.10813503,
+        545.55847361,
+        530.40499824,
+        522.15951757,
+        525.49125442
+      ]
+    },
+    {
+      "name": "symbol",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "AAPL",
+        "AAPL",
+        "AAPL",
+        "AAPL",
+        "AAPL"
+      ]
+    },
+    {
+      "name": "CTime",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "16:00:00.114000000",
+        "16:00:00.801000000",
+        "16:00:06.803000000",
+        "16:00:00.543000000",
+        "16:00:00.356000000"
+      ]
+    },
+    {
+      "name": "CEX",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "Q",
+        "Q",
+        "Q",
+        "Q",
+        "Q"
+      ]
+    },
+    {
+      "name": "CPrc",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        549.03,
+        542.44,
+        527.02,
+        524.16,
+        525.21
+      ]
+    },
+    {
+      "name": "TR_SEQNUM_close",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        1384468,
+        1156260,
+        1128882,
+        1100736,
+        1100091
+      ]
+    },
+    {
+      "name": "C_official",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "OTime",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "9:30:00.180000000",
+        "9:30:00.440000000",
+        "9:30:00.490000000",
+        "9:30:00.391000000",
+        "9:30:00.472000000"
+      ]
+    },
+    {
+      "name": "OEX",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "Q",
+        "Q",
+        "Q",
+        "Q",
+        "Q"
+      ]
+    },
+    {
+      "name": "OPrc",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        554.0,
+        547.95,
+        537.15,
+        522.05,
+        528.87
+      ]
+    },
+    {
+      "name": "TR_SEQNUM_open",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        8015,
+        6164,
+        7498,
+        5682,
+        4441
+      ]
+    },
+    {
+      "name": "O_official",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "size_1pm",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        183,
+        100,
+        100,
+        100,
+        100
+      ]
+    },
+    {
+      "name": "ttime_1pm",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "12:59:59.966000000",
+        "12:59:59.763000000",
+        "12:59:58.855000000",
+        "12:59:57.734000000",
+        "12:59:58.673000000"
+      ]
+    },
+    {
+      "name": "ptime_1pm",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        545.5,
+        547.48,
+        529.8001,
+        523.25,
+        522.499
+      ]
+    },
+    {
+      "name": "ttime_4pm",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "15:59:59.969000000",
+        "15:59:59.997000000",
+        "15:59:59.966000000",
+        "15:59:59.761000000",
+        "15:59:59.921000000"
+      ]
+    },
+    {
+      "name": "ptime_4pm",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        548.71,
+        542.38,
+        527.01,
+        523.9701,
+        525.19
+      ]
+    },
+    {
+      "name": "ttime_open",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "9:30:00.182000000",
+        "9:30:00.441000000",
+        "9:30:00.490000000",
+        "9:30:00.412000000",
+        "9:30:00.474000000"
+      ]
+    },
+    {
+      "name": "ptime_open",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        553.94,
+        547.89,
+        537.15,
+        522.04,
+        528.88
+      ]
+    },
+    {
+      "name": "ttime_close",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "16:00:00.010000000",
+        "16:00:00.655000000",
+        "16:00:06.392000000",
+        "16:00:00.030000000",
+        "15:59:59.921000000"
+      ]
+    },
+    {
+      "name": "ptime_close",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        548.71,
+        542.44,
+        526.5284,
+        523.97,
+        525.19
+      ]
+    },
+    {
+      "name": "nbbot_1pm",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "12:59:59.950000000",
+        "12:59:59.898000000",
+        "12:59:59.963000000",
+        "12:59:59.536000000",
+        "12:59:59.975000000"
+      ]
+    },
+    {
+      "name": "nbo_1pm",
+      "dtype": "float64",
+      "non_null_sample": 996,
+      "null_sample": 4,
+      "example_values": [
+        545.5,
+        547.6,
+        529.9,
+        523.31,
+        522.5
+      ]
+    },
+    {
+      "name": "nbb_1pm",
+      "dtype": "float64",
+      "non_null_sample": 996,
+      "null_sample": 4,
+      "example_values": [
+        545.39,
+        547.43,
+        529.8,
+        523.19,
+        522.39
+      ]
+    },
+    {
+      "name": "nboqty_1pm",
+      "dtype": "float64",
+      "non_null_sample": 996,
+      "null_sample": 4,
+      "example_values": [
+        200.0,
+        200.0,
+        100.0,
+        200.0,
+        100.0
+      ]
+    },
+    {
+      "name": "nbbqty_1pm",
+      "dtype": "float64",
+      "non_null_sample": 996,
+      "null_sample": 4,
+      "example_values": [
+        200.0,
+        100.0,
+        200.0,
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "name": "nbbot_4pm",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "15:59:59.977000000",
+        "15:59:59.998000000",
+        "15:59:59.965000000",
+        "15:59:59.803000000",
+        "15:59:59.920000000"
+      ]
+    },
+    {
+      "name": "nbo_4pm",
+      "dtype": "float64",
+      "non_null_sample": 998,
+      "null_sample": 2,
+      "example_values": [
+        548.71,
+        542.44,
+        527.01,
+        524.19,
+        525.4
+      ]
+    },
+    {
+      "name": "nbb_4pm",
+      "dtype": "float64",
+      "non_null_sample": 998,
+      "null_sample": 2,
+      "example_values": [
+        548.7,
+        542.27,
+        526.81,
+        523.97,
+        525.16
+      ]
+    },
+    {
+      "name": "nboqty_4pm",
+      "dtype": "float64",
+      "non_null_sample": 998,
+      "null_sample": 2,
+      "example_values": [
+        100.0,
+        100.0,
+        800.0,
+        1900.0,
+        100.0
+      ]
+    },
+    {
+      "name": "nbbqty_4pm",
+      "dtype": "float64",
+      "non_null_sample": 998,
+      "null_sample": 2,
+      "example_values": [
+        2200.0,
+        100.0,
+        1800.0,
+        100.0,
+        2800.0
+      ]
+    },
+    {
+      "name": "nbbot_after_open",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "9:30:00.181000000",
+        "9:30:00.405000000",
+        "9:30:00.405000000",
+        "9:30:00.411000000",
+        "9:30:00.467000000"
+      ]
+    },
+    {
+      "name": "nbo_after_open",
+      "dtype": "float64",
+      "non_null_sample": 996,
+      "null_sample": 4,
+      "example_values": [
+        553.97,
+        547.9,
+        536.93,
+        522.05,
+        529.2
+      ]
+    },
+    {
+      "name": "nbb_after_open",
+      "dtype": "float64",
+      "non_null_sample": 997,
+      "null_sample": 3,
+      "example_values": [
+        553.6,
+        547.56,
+        536.72,
+        522.0,
+        528.85
+      ]
+    },
+    {
+      "name": "nboqty_after_open",
+      "dtype": "float64",
+      "non_null_sample": 996,
+      "null_sample": 4,
+      "example_values": [
+        100.0,
+        100.0,
+        100.0,
+        200.0,
+        100.0
+      ]
+    },
+    {
+      "name": "nbbqty_after_open",
+      "dtype": "float64",
+      "non_null_sample": 997,
+      "null_sample": 3,
+      "example_values": [
+        100.0,
+        100.0,
+        100.0,
+        4400.0,
+        100.0
+      ]
+    },
+    {
+      "name": "nbbot_before_close",
+      "dtype": "str",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        "15:59:59.978000000",
+        "16:00:00.582000000",
+        "16:00:06.019000000",
+        "15:59:59.804000000",
+        "15:59:59.921000000"
+      ]
+    },
+    {
+      "name": "nbo_before_close",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        548.71,
+        542.13,
+        527.26,
+        524.19,
+        525.4
+      ]
+    },
+    {
+      "name": "nbb_before_close",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        548.7,
+        542.06,
+        526.8,
+        523.97,
+        525.16
+      ]
+    },
+    {
+      "name": "nboqty_before_close",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        100,
+        2500,
+        100,
+        1900,
+        100
+      ]
+    },
+    {
+      "name": "nbbqty_before_close",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        2200,
+        400,
+        100,
+        100,
+        2800
+      ]
+    },
+    {
+      "name": "mid_1pm",
+      "dtype": "float64",
+      "non_null_sample": 996,
+      "null_sample": 4,
+      "example_values": [
+        545.445,
+        547.515,
+        529.85,
+        523.25,
+        522.445
+      ]
+    },
+    {
+      "name": "mid_4pm",
+      "dtype": "float64",
+      "non_null_sample": 998,
+      "null_sample": 2,
+      "example_values": [
+        548.705,
+        542.355,
+        526.91,
+        524.08,
+        525.28
+      ]
+    },
+    {
+      "name": "mid_after_open",
+      "dtype": "float64",
+      "non_null_sample": 996,
+      "null_sample": 4,
+      "example_values": [
+        553.785,
+        547.73,
+        536.825,
+        522.025,
+        529.025
+      ]
+    },
+    {
+      "name": "mid_before_close",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        548.705,
+        542.095,
+        527.03,
+        524.08,
+        525.28
+      ]
+    },
+    {
+      "name": "price_low_m",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        541.63,
+        541.0,
+        525.8286,
+        515.2,
+        521.25
+      ]
+    },
+    {
+      "name": "price_high_m",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        555.0,
+        549.67,
+        538.6299,
+        529.3,
+        531.89
+      ]
+    },
+    {
+      "name": "avg_price_m",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        548.21647265,
+        545.73726925,
+        530.37214604,
+        522.27535961,
+        525.56380545
+      ]
+    },
+    {
+      "name": "total_vol_m",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        18990746,
+        12165474,
+        20553572,
+        16900472,
+        15648096
+      ]
+    },
+    {
+      "name": "total_dollar_m",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        10413827156.0,
+        6638641993.0,
+        10901339060.0,
+        8826806120.2,
+        8224064189.0
+      ]
+    },
+    {
+      "name": "total_n_trades_m",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        110938,
+        71991,
+        119660,
+        97956,
+        91532
+      ]
+    },
+    {
+      "name": "vw_price_m",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        548.36324787,
+        545.69530074,
+        530.38659459,
+        522.28163333,
+        525.56324993
+      ]
+    },
+    {
+      "name": "total_vol_b",
+      "dtype": "float64",
+      "non_null_sample": 671,
+      "null_sample": 329,
+      "example_values": [
+        840388.0,
+        147381.0,
+        448780.0,
+        251176.0,
+        343879.0
+      ]
+    },
+    {
+      "name": "total_dollar_b",
+      "dtype": "float64",
+      "non_null_sample": 671,
+      "null_sample": 329,
+      "example_values": [
+        461419597.19,
+        80556204.19,
+        242091104.65,
+        131055123.23,
+        181757500.1
+      ]
+    },
+    {
+      "name": "total_n_trades_b",
+      "dtype": "float64",
+      "non_null_sample": 671,
+      "null_sample": 329,
+      "example_values": [
+        5345.0,
+        935.0,
+        2833.0,
+        1599.0,
+        2193.0
+      ]
+    },
+    {
+      "name": "total_vol_a",
+      "dtype": "float64",
+      "non_null_sample": 643,
+      "null_sample": 357,
+      "example_values": [
+        186934.0,
+        308245.0,
+        229328.0,
+        139520.0,
+        395218.0
+      ]
+    },
+    {
+      "name": "total_dollar_a",
+      "dtype": "float64",
+      "non_null_sample": 643,
+      "null_sample": 357,
+      "example_values": [
+        102573389.92,
+        167471763.67,
+        120916472.67,
+        73064326.456,
+        207543534.87
+      ]
+    },
+    {
+      "name": "total_n_trades_a",
+      "dtype": "float64",
+      "non_null_sample": 643,
+      "null_sample": 357,
+      "example_values": [
+        648.0,
+        685.0,
+        982.0,
+        443.0,
+        457.0
+      ]
+    },
+    {
+      "name": "ret_mkt_m",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        -0.009011602,
+        -0.010106562,
+        -0.019038887,
+        0.0040336125,
+        -0.006944472
+      ]
+    },
+    {
+      "name": "n_oddlot_trade",
+      "dtype": "float64",
+      "non_null_sample": 32,
+      "null_sample": 968,
+      "example_values": [
+        44557.0,
+        37838.0,
+        47845.0,
+        36433.0,
+        51236.0
+      ]
+    },
+    {
+      "name": "oddlot_vol",
+      "dtype": "float64",
+      "non_null_sample": 32,
+      "null_sample": 968,
+      "example_values": [
+        1454352.0,
+        1217888.0,
+        1528001.0,
+        1188279.0,
+        1607900.0
+      ]
+    },
+    {
+      "name": "oddlot_dollar",
+      "dtype": "float64",
+      "non_null_sample": 32,
+      "null_sample": 968,
+      "example_values": [
+        824125140.39,
+        687877591.23,
+        862874756.93,
+        668127763.36,
+        893704581.72
+      ]
+    },
+    {
+      "name": "n_iso_trade",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        50334,
+        34605,
+        53557,
+        43832,
+        40899
+      ]
+    },
+    {
+      "name": "iso_vol",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        7291456,
+        5016633,
+        8132024,
+        6371610,
+        6013117
+      ]
+    },
+    {
+      "name": "iso_dollar",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        3998154850.9,
+        2738232815.7,
+        4313405473.9,
+        3327782253.8,
+        3159979976.2
+      ]
+    },
+    {
+      "name": "QuotedSpread_Dollar_tw",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.1389637465,
+        0.1416706932,
+        0.1170338512,
+        0.146128596,
+        0.1474566207
+      ]
+    },
+    {
+      "name": "QuotedSpread_Percent_tw",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0002540029,
+        0.0002591549,
+        0.0002208188,
+        0.0002796425,
+        0.0002809152
+      ]
+    },
+    {
+      "name": "BestOfrDepth_Dollar_tw",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        125322.01969,
+        130220.43827,
+        144950.7641,
+        115389.77779,
+        123915.87377
+      ]
+    },
+    {
+      "name": "BestBidDepth_Dollar_tw",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        123735.52434,
+        131459.88738,
+        148192.66867,
+        120387.02567,
+        116437.91303
+      ]
+    },
+    {
+      "name": "BestOfrDepth_Share_tw",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        229.04016542,
+        238.24558387,
+        273.4347781,
+        220.73516203,
+        235.99735228
+      ]
+    },
+    {
+      "name": "BestBidDepth_Share_tw",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        226.25200748,
+        240.68727636,
+        279.68500675,
+        230.39200402,
+        221.88177598
+      ]
+    },
+    {
+      "name": "EffectiveSpread_Dollar_Ave",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.1174128731,
+        0.1161936229,
+        0.0962122207,
+        0.1151177112,
+        0.1155430969
+      ]
+    },
+    {
+      "name": "EffectiveSpread_Percent_Ave",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0002139751,
+        0.0002127768,
+        0.0001813329,
+        0.0002205146,
+        0.0002197649
+      ]
+    },
+    {
+      "name": "EffectiveSpread_Dollar_DW",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.1354264018,
+        0.122974541,
+        0.1172862931,
+        0.1233088609,
+        0.1521495048
+      ]
+    },
+    {
+      "name": "EffectiveSpread_Dollar_SW",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.1352257123,
+        0.1228863303,
+        0.1170497642,
+        0.1233611706,
+        0.1521680883
+      ]
+    },
+    {
+      "name": "EffectiveSpread_Percent_DW",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0002466217,
+        0.0002251813,
+        0.0002208478,
+        0.0002362317,
+        0.0002894992
+      ]
+    },
+    {
+      "name": "EffectiveSpread_Percent_SW",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0002462657,
+        0.0002250233,
+        0.0002204105,
+        0.00023634,
+        0.0002895401
+      ]
+    },
+    {
+      "name": "DollarRealizedSpread_LR_Ave",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0440152492,
+        0.0539125289,
+        -0.012605461,
+        -0.041262766,
+        0.0985926817
+      ]
+    },
+    {
+      "name": "PercentRealizedSpread_LR_Ave",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        7.98062e-05,
+        9.88149e-05,
+        -2.328e-05,
+        -7.872e-05,
+        0.0001876807
+      ]
+    },
+    {
+      "name": "DollarPriceImpact_LR_Ave",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.073396269,
+        0.0622821577,
+        0.1088230469,
+        0.1563804772,
+        0.0169504152
+      ]
+    },
+    {
+      "name": "PercentPriceImpact_LR_Ave",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0001341666,
+        0.0001139639,
+        0.0002046226,
+        0.0002992342,
+        3.20842e-05
+      ]
+    },
+    {
+      "name": "DollarRealizedSpread_LR_SW",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0939790681,
+        0.117842844,
+        -0.007818851,
+        -0.03281319,
+        0.1560458806
+      ]
+    },
+    {
+      "name": "DollarRealizedSpread_LR_DW",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0945950747,
+        0.1180478212,
+        -0.008028526,
+        -0.032769302,
+        0.1559311296
+      ]
+    },
+    {
+      "name": "PercentRealizedSpread_LR_SW",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.000170215,
+        0.0002158796,
+        -1.4391e-05,
+        -6.2609e-05,
+        0.0002971908
+      ]
+    },
+    {
+      "name": "PercentRealizedSpread_LR_DW",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.000171326,
+        0.0002162512,
+        -1.4785e-05,
+        -6.2523e-05,
+        0.000296968
+      ]
+    },
+    {
+      "name": "DollarPriceImpact_LR_SW",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0412448667,
+        0.0050441816,
+        0.1248734984,
+        0.1561743605,
+        -0.003877792
+      ]
+    },
+    {
+      "name": "DollarPriceImpact_LR_DW",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0408295242,
+        0.0049274104,
+        0.1253197052,
+        0.1560781624,
+        -0.003781625
+      ]
+    },
+    {
+      "name": "PercentPriceImpact_LR_SW",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        7.60476e-05,
+        9.1448821e-06,
+        0.0002348109,
+        0.0002989493,
+        -7.650728e-06
+      ]
+    },
+    {
+      "name": "PercentPriceImpact_LR_DW",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        7.52925e-05,
+        8.9313991e-06,
+        0.0002356423,
+        0.0002987552,
+        -7.468726e-06
+      ]
+    },
+    {
+      "name": "ivol_t",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        2.2489588e-08,
+        1.8034718e-08,
+        1.6945187e-08,
+        3.4089136e-08,
+        1.847228e-08
+      ]
+    },
+    {
+      "name": "ivol_q",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        1.5925876e-09,
+        1.3192094e-09,
+        1.2626033e-09,
+        1.5220148e-09,
+        1.441143e-09
+      ]
+    },
+    {
+      "name": "bs_ratio_num",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.017232056,
+        0.0127893575,
+        0.0529755388,
+        0.0113715242,
+        0.0254841775
+      ]
+    },
+    {
+      "name": "bs_ratio_vol",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0263646906,
+        0.020698793,
+        0.0478044306,
+        0.0151078436,
+        0.007484641
+      ]
+    },
+    {
+      "name": "TSignSqrtDVol1",
+      "dtype": "float64",
+      "non_null_sample": 995,
+      "null_sample": 5,
+      "example_values": [
+        2.0952608e-07,
+        1.902778e-07,
+        1.9981273e-07,
+        2.8094867e-07,
+        2.0003055e-07
+      ]
+    },
+    {
+      "name": "TSignSqrtDVol2",
+      "dtype": "float64",
+      "non_null_sample": 995,
+      "null_sample": 5,
+      "example_values": [
+        2.0712072e-07,
+        1.8463431e-07,
+        2.014299e-07,
+        2.8114223e-07,
+        1.9718795e-07
+      ]
+    },
+    {
+      "name": "n_obs",
+      "dtype": "float64",
+      "non_null_sample": 995,
+      "null_sample": 5,
+      "example_values": [
+        77.0,
+        75.0,
+        77.0,
+        77.0,
+        77.0
+      ]
+    },
+    {
+      "name": "n5_pos",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        78,
+        76,
+        78,
+        78,
+        78
+      ]
+    },
+    {
+      "name": "n30_pos",
+      "dtype": "int64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ]
+    },
+    {
+      "name": "HIndex",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.1206145341,
+        0.1066438303,
+        0.0996837474,
+        0.1079143609,
+        0.0980084884
+      ]
+    },
+    {
+      "name": "var_ratio1",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.1069507186,
+        0.0197032196,
+        0.0188122018,
+        0.1367993067,
+        0.0996260208
+      ]
+    },
+    {
+      "name": "var_ratio2",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0300601326,
+        0.0575995376,
+        0.1129676622,
+        0.248602653,
+        0.0628184738
+      ]
+    },
+    {
+      "name": "var_ratio3",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.1325328347,
+        0.1256851231,
+        0.2186509144,
+        0.3566855236,
+        0.0845849163
+      ]
+    },
+    {
+      "name": "var_ratio4",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.1348236622,
+        0.1957846021,
+        0.0307699164,
+        0.0143800695,
+        0.0811769665
+      ]
+    },
+    {
+      "name": "var_ratio5",
+      "dtype": "float64",
+      "non_null_sample": 1000,
+      "null_sample": 0,
+      "example_values": [
+        0.0060774681,
+        0.4400581438,
+        0.6027462111,
+        0.4407451602,
+        0.0800676764
+      ]
+    },
+    {
+      "name": "BuyNumTrades_Retail",
+      "dtype": "float64",
+      "non_null_sample": 995,
+      "null_sample": 5,
+      "example_values": [
+        5646.0,
+        3439.0,
+        5199.0,
+        4720.0,
+        4034.0
+      ]
+    },
+    {
+      "name": "BuyVol_Retail",
+      "dtype": "float64",
+      "non_null_sample": 995,
+      "null_sample": 5,
+      "example_values": [
+        1359347.0,
+        866260.0,
+        1291933.0,
+        1115979.0,
+        1008240.0
+      ]
+    },
+    {
+      "name": "buy_dv_Retail",
+      "dtype": "float64",
+      "non_null_sample": 995,
+      "null_sample": 5,
+      "example_values": [
+        744886715.37,
+        472616656.1,
+        685104103.89,
+        582988267.26,
+        529947885.73
+      ]
+    },
+    {
+      "name": "SellNumTrades_Retail",
+      "dtype": "float64",
+      "non_null_sample": 995,
+      "null_sample": 5,
+      "example_values": [
+        5498.0,
+        3276.0,
+        5332.0,
+        4518.0,
+        3833.0
+      ]
+    },
+    {
+      "name": "SellVol_Retail",
+      "dtype": "float64",
+      "non_null_sample": 995,
+      "null_sample": 5,
+      "example_values": [
+        1315610.0,
+        803517.0,
+        1332141.0,
+        1169473.0,
+        983381.0
+      ]
+    },
+    {
+      "name": "sell_dv_Retail",
+      "dtype": "float64",
+      "non_null_sample": 995,
+      "null_sample": 5,
+      "example_values": [
+        720892947.82,
+        438365355.0,
+        706203646.89,
+        610680866.11,
+        516754189.83
+      ]
+    },
+    {
+      "name": "avg_buy_price_Retail",
+      "dtype": "float64",
+      "non_null_sample": 980,
+      "null_sample": 20,
+      "example_values": [
+        548.1199184,
+        545.71134376,
+        530.25899446,
+        522.47596506,
+        525.66931049
+      ]
+    },
+    {
+      "name": "avg_sell_price_Retail",
+      "dtype": "float64",
+      "non_null_sample": 971,
+      "null_sample": 29,
+      "example_values": [
+        548.0001472,
+        545.46434521,
+        530.11070688,
+        522.39201631,
+        525.56079426
+      ]
+    },
+    {
+      "name": "bs_ratio_retail_num",
+      "dtype": "float64",
+      "non_null_sample": 995,
+      "null_sample": 5,
+      "example_values": [
+        0.0132806892,
+        0.0242740134,
+        0.0126293799,
+        0.0218662048,
+        0.0255497648
+      ]
+    },
+    {
+      "name": "bs_ratio_retail_vol",
+      "dtype": "float64",
+      "non_null_sample": 995,
+      "null_sample": 5,
+      "example_values": [
+        0.0163505432,
+        0.0375756763,
+        0.0153227386,
+        0.0234063109,
+        0.0124817925
+      ]
+    },
+    {
+      "name": "BuyNumTrades_Inst20k",
+      "dtype": "float64",
+      "non_null_sample": 961,
+      "null_sample": 39,
+      "example_values": [
+        56282.0,
+        36363.0,
+        56534.0,
+        49456.0,
+        46801.0
+      ]
+    },
+    {
+      "name": "BuyVol_Inst20k",
+      "dtype": "float64",
+      "non_null_sample": 961,
+      "null_sample": 39,
+      "example_values": [
+        9506034.0,
+        6099637.0,
+        9671594.0,
+        8314336.0,
+        7770738.0
+      ]
+    },
+    {
+      "name": "buy_dv_Inst20k",
+      "dtype": "float64",
+      "non_null_sample": 961,
+      "null_sample": 39,
+      "example_values": [
+        5214799152.6,
+        3329928092.1,
+        5130205052.3,
+        4342481712.9,
+        4084649197.5
+      ]
+    },
+    {
+      "name": "SellNumTrades_Inst20k",
+      "dtype": "float64",
+      "non_null_sample": 961,
+      "null_sample": 39,
+      "example_values": [
+        54367.0,
+        35456.0,
+        62935.0,
+        48358.0,
+        44477.0
+      ]
+    },
+    {
+      "name": "SellVol_Inst20k",
+      "dtype": "float64",
+      "non_null_sample": 961,
+      "null_sample": 39,
+      "example_values": [
+        9007797.0,
+        5851133.0,
+        10650356.0,
+        8070135.0,
+        7655939.0
+      ]
+    },
+    {
+      "name": "sell_dv_Inst20k",
+      "dtype": "float64",
+      "non_null_sample": 961,
+      "null_sample": 39,
+      "example_values": [
+        4937240085.0,
+        3192125617.6,
+        5649003323.9,
+        4213900204.0,
+        4023142129.1
+      ]
+    },
+    {
+      "name": "avg_buy_price_Inst20k",
+      "dtype": "float64",
+      "non_null_sample": 929,
+      "null_sample": 71,
+      "example_values": [
+        548.28709718,
+        545.92503837,
+        530.33341388,
+        522.30748052,
+        525.60831416
+      ]
+    },
+    {
+      "name": "avg_sell_price_Inst20k",
+      "dtype": "float64",
+      "non_null_sample": 936,
+      "null_sample": 64,
+      "example_values": [
+        548.14458983,
+        545.54287202,
+        530.41073697,
+        522.24330647,
+        525.52086279
+      ]
+    },
+    {
+      "name": "bs_ratio_Inst20k_num",
+      "dtype": "float64",
+      "non_null_sample": 961,
+      "null_sample": 39,
+      "example_values": [
+        0.0173069797,
+        0.01262897,
+        0.0535787526,
+        0.011225387,
+        0.0254606806
+      ]
+    },
+    {
+      "name": "bs_ratio_Inst20k_vol",
+      "dtype": "float64",
+      "non_null_sample": 961,
+      "null_sample": 39,
+      "example_values": [
+        0.02691161,
+        0.0207939739,
+        0.0481627993,
+        0.0149044177,
+        0.0074415897
+      ]
+    },
+    {
+      "name": "BuyNumTrades_Inst50k",
+      "dtype": "float64",
+      "non_null_sample": 834,
+      "null_sample": 166,
+      "example_values": [
+        56282.0,
+        36363.0,
+        56534.0,
+        49456.0,
+        46801.0
+      ]
+    },
+    {
+      "name": "BuyVol_Inst50k",
+      "dtype": "float64",
+      "non_null_sample": 834,
+      "null_sample": 166,
+      "example_values": [
+        9506034.0,
+        6099637.0,
+        9671594.0,
+        8314336.0,
+        7770738.0
+      ]
+    },
+    {
+      "name": "buy_dv_Inst50k",
+      "dtype": "float64",
+      "non_null_sample": 834,
+      "null_sample": 166,
+      "example_values": [
+        5214799152.6,
+        3329928092.1,
+        5130205052.3,
+        4342481712.9,
+        4084649197.5
+      ]
+    },
+    {
+      "name": "SellNumTrades_Inst50k",
+      "dtype": "float64",
+      "non_null_sample": 834,
+      "null_sample": 166,
+      "example_values": [
+        54367.0,
+        35456.0,
+        62935.0,
+        48358.0,
+        44477.0
+      ]
+    },
+    {
+      "name": "SellVol_Inst50k",
+      "dtype": "float64",
+      "non_null_sample": 834,
+      "null_sample": 166,
+      "example_values": [
+        9007797.0,
+        5851133.0,
+        10650356.0,
+        8070135.0,
+        7655939.0
+      ]
+    },
+    {
+      "name": "sell_dv_Inst50k",
+      "dtype": "float64",
+      "non_null_sample": 834,
+      "null_sample": 166,
+      "example_values": [
+        4937240085.0,
+        3192125617.6,
+        5649003323.9,
+        4213900204.0,
+        4023142129.1
+      ]
+    },
+    {
+      "name": "avg_buy_price_Inst50k",
+      "dtype": "float64",
+      "non_null_sample": 767,
+      "null_sample": 233,
+      "example_values": [
+        548.28709718,
+        545.92503837,
+        530.33341388,
+        522.30748052,
+        525.60831416
+      ]
+    },
+    {
+      "name": "avg_sell_price_Inst50k",
+      "dtype": "float64",
+      "non_null_sample": 772,
+      "null_sample": 228,
+      "example_values": [
+        548.14458983,
+        545.54287202,
+        530.41073697,
+        522.24330647,
+        525.52086279
+      ]
+    },
+    {
+      "name": "bs_ratio_Inst50k_num",
+      "dtype": "float64",
+      "non_null_sample": 834,
+      "null_sample": 166,
+      "example_values": [
+        0.0173069797,
+        0.01262897,
+        0.0535787526,
+        0.011225387,
+        0.0254606806
+      ]
+    },
+    {
+      "name": "bs_ratio_Inst50k_vol",
+      "dtype": "float64",
+      "non_null_sample": 834,
+      "null_sample": 166,
+      "example_values": [
+        0.02691161,
+        0.0207939739,
+        0.0481627993,
+        0.0149044177,
+        0.0074415897
+      ]
+    }
+  ]
+}

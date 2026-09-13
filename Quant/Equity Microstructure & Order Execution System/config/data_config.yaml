@@ -1,0 +1,38 @@
+project:
+  name: "equity-microstructure-execution-framework"
+  version: "0.1.0"
+
+
+research_period:
+  start: "1993-01-01"
+  end: "2018-12-31"
+
+microstructure_regimes:
+  taq:
+    start_year: 1993
+    end_year: 2012
+
+  taqm:
+    start_year: 2013
+    end_year: 2018
+
+
+data:
+
+  crsp:
+    path: "/path/to/crsp"
+
+  taq:
+    path: "/path/to/taq"
+
+  taqm:
+    path: "/path/to/taqm"
+
+
+outputs:
+
+  metadata: "data/metadata"
+  validation: "data/validation"
+  interim: "data/interim"
+  processed: "data/processed"
+  reports: "reports"
