@@ -1,0 +1,2 @@
+domain,check,violation_count,severity,interpretation
+TEMPORAL,Date outside expected source range,0,REVIEW,Source coverage is expected to lie within 1993-2012.

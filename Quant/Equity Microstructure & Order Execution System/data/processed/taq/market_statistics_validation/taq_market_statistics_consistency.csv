@@ -1,0 +1,10 @@
+diagnostic,count,interpretation
+NEGATIVE_VOLATILITY,0,Potentially invalid because volatility should not be negative.
+NEGATIVE_VARIANCE_RATIO,0,Requires semantic/source-definition review.
+NONPOSITIVE_VARIANCE_RATIO,269,Diagnostic only; no automatic validity range imposed.
+INVALID_INFORMATION_METRIC,0,Requires source-semantic review.
+NEGATIVE_EXTREME_QUOTE_COUNT,0,Negative counts are structurally suspect.
+NEGATIVE_OBSERVATION_COUNT,0,Negative counts are structurally suspect.
+OBSERVATION_COUNT_RELATIONSHIP,226246,Requires review of the exact source definitions.
+EXTREME_QUOTE_GT_TRADE_COUNT,0,Requires semantic review of extreme-quote definitions.
+NONFINITE_RETURN,0,Non-finite return observations require investigation.

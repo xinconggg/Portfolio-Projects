@@ -1,0 +1,11 @@
+check,severity,status,detail
+CANONICAL_TAQ_EXISTS,CRITICAL,PASS,C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\processed\taq\taq_cleaned.csv
+RAW_TAQ_EXISTS,REVIEW,PASS,C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\raw\taq\taq.csv
+REQUIRED_COLUMNS,CRITICAL,PASS,All required canonical columns are present.
+CANONICAL_DATE_COMPLETENESS,CRITICAL,PASS,Missing canonical dates: 0
+SYMBOL_COMPLETENESS,CRITICAL,PASS,"Missing=0, blank=0"
+DATE_SYMBOL_UNIQUENESS,CRITICAL,PASS,Duplicate extra rows: 0
+RAW_CLEAN_ROW_PRESERVATION,CRITICAL,PASS,Row difference: 0
+RAW_CLEAN_DATE_SYMBOL_ALIGNMENT,CRITICAL,PASS,"Aligned rows: 122,441 / 122,441"
+NO_OBSERVATIONS_REMOVED,PASS,PASS,Phase 5 policy: no observations automatically removed.
+NO_VALUES_MODIFIED,PASS,PASS,Phase 5 policy: no unsupported value corrections applied.

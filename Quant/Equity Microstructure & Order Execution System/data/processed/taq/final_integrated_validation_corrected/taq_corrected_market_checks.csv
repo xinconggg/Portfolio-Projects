@@ -1,0 +1,29 @@
+domain,column,check,violation_count,severity,interpretation
+MARKET_STATISTICS,Ret_pre_t,Missing market statistic,56983,REVIEW,Missing market statistics require source review.
+MARKET_STATISTICS,Ret_pre_t,Negative market statistic,0,REVIEW,Negative returns are economically valid; other negatives require semantic interpretation.
+MARKET_STATISTICS,Ret_mkt_t,Missing market statistic,1,REVIEW,Missing market statistics require source review.
+MARKET_STATISTICS,Ret_mkt_t,Negative market statistic,0,REVIEW,Negative returns are economically valid; other negatives require semantic interpretation.
+MARKET_STATISTICS,Ret_post_t,Missing market statistic,39816,REVIEW,Missing market statistics require source review.
+MARKET_STATISTICS,Ret_post_t,Negative market statistic,0,REVIEW,Negative returns are economically valid; other negatives require semantic interpretation.
+MARKET_STATISTICS,IVol_t_m,Missing market statistic,180,REVIEW,Missing market statistics require source review.
+MARKET_STATISTICS,IVol_t_m,Negative market statistic,0,REVIEW,Negative returns are economically valid; other negatives require semantic interpretation.
+MARKET_STATISTICS,IVol_q_m,Missing market statistic,712,REVIEW,Missing market statistics require source review.
+MARKET_STATISTICS,IVol_q_m,Negative market statistic,0,REVIEW,Negative returns are economically valid; other negatives require semantic interpretation.
+MARKET_STATISTICS,VarianceRatio1,Missing market statistic,820,REVIEW,Missing market statistics require source review.
+MARKET_STATISTICS,VarianceRatio1,Negative market statistic,0,REVIEW,Negative returns are economically valid; other negatives require semantic interpretation.
+MARKET_STATISTICS,VarianceRatio2,Missing market statistic,841,REVIEW,Missing market statistics require source review.
+MARKET_STATISTICS,VarianceRatio2,Negative market statistic,0,REVIEW,Negative returns are economically valid; other negatives require semantic interpretation.
+MARKET_STATISTICS,HIndex1,Missing market statistic,502,REVIEW,Missing market statistics require source review.
+MARKET_STATISTICS,HIndex1,Negative market statistic,0,REVIEW,Negative returns are economically valid; other negatives require semantic interpretation.
+MARKET_STATISTICS,NumExtremeOfr_m,Missing market statistic,32537,REVIEW,Missing market statistics require source review.
+MARKET_STATISTICS,NumExtremeOfr_m,Negative market statistic,0,REVIEW,Negative returns are economically valid; other negatives require semantic interpretation.
+MARKET_STATISTICS,NumExtremeBid_m,Missing market statistic,40551,REVIEW,Missing market statistics require source review.
+MARKET_STATISTICS,NumExtremeBid_m,Negative market statistic,0,REVIEW,Negative returns are economically valid; other negatives require semantic interpretation.
+MARKET_STATISTICS,NObsUsed1,Missing market statistic,2544,REVIEW,Missing market statistics require source review.
+MARKET_STATISTICS,NObsUsed1,Negative market statistic,0,REVIEW,Negative returns are economically valid; other negatives require semantic interpretation.
+MARKET_STATISTICS,NObsUsed2,Missing market statistic,2544,REVIEW,Missing market statistics require source review.
+MARKET_STATISTICS,NObsUsed2,Negative market statistic,0,REVIEW,Negative returns are economically valid; other negatives require semantic interpretation.
+MARKET_STATISTICS,NumTimeUnitsWithTrade1,Missing market statistic,502,REVIEW,Missing market statistics require source review.
+MARKET_STATISTICS,NumTimeUnitsWithTrade1,Negative market statistic,0,REVIEW,Negative returns are economically valid; other negatives require semantic interpretation.
+MARKET_STATISTICS,NumTimeUnitsWithTrade2,Missing market statistic,502,REVIEW,Missing market statistics require source review.
+MARKET_STATISTICS,NumTimeUnitsWithTrade2,Negative market statistic,0,REVIEW,Negative returns are economically valid; other negatives require semantic interpretation.

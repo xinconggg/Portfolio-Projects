@@ -1,0 +1,2 @@
+input_rows,input_columns,canonical_date_column,canonical_date_missing,canonical_symbol_missing,date_symbol_duplicate_extra_rows,critical_failure_count,review_item_count,observations_removed,values_modified,values_imputed,automatic_corrections,overall_status
+122441,127,date_normalized,0,0,0,0,345840,0,0,0,0,PASS

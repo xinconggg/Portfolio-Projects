@@ -1,0 +1,11 @@
+metric,value
+input_rows,122441
+total_bid_greater_than_ask,23564
+total_non_null_bid_ask_observations,489759
+overall_violation_rate,0.048113459885372196
+quote_sets_investigated,4
+automatic_cleaning_applied,False
+observations_removed,0
+values_modified,0
+imputation_performed,False
+canonical_file_overwritten,False

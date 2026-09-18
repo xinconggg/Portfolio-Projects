@@ -1,0 +1,5 @@
+failure,status,detail
+DATE_INTERPRETATION,FAIL,Cleaned date does not consistently match the confirmed DD/MM/YYYY interpretation.
+DATE_SYMBOL_DUPLICATES,FAIL,"Cleaned duplicate rows: 74,172; raw duplicate rows under corrected dates: 0."
+BID_GREATER_THAN_ASK,REVIEW,Investigate quote-set-specific violations before declaring a data error.
+MIDPOINT_CONSISTENCY,PASS,Compare stored midpoint against (bid + ask) / 2 for each quote snapshot.

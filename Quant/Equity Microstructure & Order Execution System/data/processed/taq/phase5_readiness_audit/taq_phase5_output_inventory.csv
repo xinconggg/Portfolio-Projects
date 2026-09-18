@@ -1,0 +1,19 @@
+path,type,exists
+C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\processed\taq\taq_trade_quality_summary.csv,CSV,True
+C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\processed\taq\taq_quote_quality_summary.csv,CSV,True
+C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\processed\taq\taq_microstructure_consistency.csv,CSV,True
+C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\processed\taq\taq_duplicate_diagnostic.csv,CSV,True
+C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\processed\taq\taq_duplicate_examples.csv,CSV,True
+C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\processed\taq\taq_cleaning_audit.csv,CSV,True
+C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\processed\taq\taq_cleaning_summary.csv,CSV,True
+C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\processed\taq\taq_post_clean_validation.csv,CSV,True
+C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\processed\taq\taq_post_clean_validation_detailed.csv,CSV,True
+C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\processed\taq\taq_post_clean_missingness.csv,CSV,True
+C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\processed\taq\taq_post_clean_range_checks.csv,CSV,True
+C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\processed\taq\taq_post_clean_crossfield_checks.csv,CSV,True
+C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\processed\taq\taq_post_clean_symbol_coverage.csv,CSV,True
+C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\processed\taq\taq_post_clean_date_coverage.csv,CSV,True
+C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\processed\taq\taq_post_clean_validation_summary.csv,CSV,True
+C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\processed\taq\failure_investigation\taq_quote_semantic_investigation\quote_semantic_investigation\execution_metric_validation\activity_orderflow_validation\market_statistics_validation\final_integrated_validation,OTHER,False
+C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\processed\taq\final_validation_investigation,DIRECTORY,True
+C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\processed\taq\final_integrated_validation_corrected,DIRECTORY,True

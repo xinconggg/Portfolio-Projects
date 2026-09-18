@@ -1,0 +1,10 @@
+metric,value
+input_rows,122441
+input_columns,127
+critical_failure_count,74172
+review_item_count,536537
+overall_status,FAIL
+observations_removed,0
+values_modified,0
+values_imputed,0
+automatic_corrections,0

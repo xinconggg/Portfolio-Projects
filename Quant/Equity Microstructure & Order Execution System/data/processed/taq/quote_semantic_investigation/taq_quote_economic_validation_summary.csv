@@ -1,0 +1,14 @@
+metric,value
+total_rows,122441.0
+total_valid_bid_ask_observations,489759.0
+total_bid_greater_than_ask,23564.0
+overall_bid_greater_than_ask_rate,0.048113459885372196
+total_negative_spreads,23564.0
+negative_spread_rate,0.048113459885372196
+total_zero_spreads,20055.0
+zero_spread_rate,0.04094871150913
+total_positive_spreads,446140.0
+positive_spread_rate,0.9109378286054978
+total_midpoint_inconsistent,0.0
+midpoint_inconsistent_rate,0.0
+negative_quote_values,0.0

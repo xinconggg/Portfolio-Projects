@@ -1,0 +1,2 @@
+input_rows,input_columns,canonical_date_column,raw_duplicate_extra_rows,clean_duplicate_extra_rows,clean_duplicate_groups,raw_unique_dates,clean_unique_dates,date_mismatch_rows,symbol_mismatch_rows,expected_integrated_critical_failures,duplicate_root_cause_confirmed,investigation_status,observations_removed,values_modified,values_imputed
+122441,127,date_normalized,0,0,0,5036,5036,0,0,74172,False,PASS,0,0,0

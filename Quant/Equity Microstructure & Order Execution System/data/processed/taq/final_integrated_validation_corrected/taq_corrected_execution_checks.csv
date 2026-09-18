@@ -1,0 +1,37 @@
+domain,column,check,violation_count,severity,interpretation
+EXECUTION,ESpreadDollar_Avg1,Negative execution metric,0,REVIEW,Signed execution measures may legitimately be negative.
+EXECUTION,ESpreadDollar_Avg1,Missing execution metric,59,REVIEW,Missingness requires source-semantic interpretation.
+EXECUTION,ESpreadPct_Avg1,Negative execution metric,0,REVIEW,Signed execution measures may legitimately be negative.
+EXECUTION,ESpreadPct_Avg1,Missing execution metric,59,REVIEW,Missingness requires source-semantic interpretation.
+EXECUTION,RSpreadDollar_Avg1,Negative execution metric,27018,REVIEW,Signed execution measures may legitimately be negative.
+EXECUTION,RSpreadDollar_Avg1,Missing execution metric,63,REVIEW,Missingness requires source-semantic interpretation.
+EXECUTION,RSpreadPct_Avg1,Negative execution metric,27038,REVIEW,Signed execution measures may legitimately be negative.
+EXECUTION,RSpreadPct_Avg1,Missing execution metric,63,REVIEW,Missingness requires source-semantic interpretation.
+EXECUTION,PriceImpactDollar_Avg1,Negative execution metric,2150,REVIEW,Signed execution measures may legitimately be negative.
+EXECUTION,PriceImpactDollar_Avg1,Missing execution metric,63,REVIEW,Missingness requires source-semantic interpretation.
+EXECUTION,PriceImpactPct_Avg1,Negative execution metric,2179,REVIEW,Signed execution measures may legitimately be negative.
+EXECUTION,PriceImpactPct_Avg1,Missing execution metric,63,REVIEW,Missingness requires source-semantic interpretation.
+EXECUTION,ESpreadDollar_VW1,Negative execution metric,0,REVIEW,Signed execution measures may legitimately be negative.
+EXECUTION,ESpreadDollar_VW1,Missing execution metric,59,REVIEW,Missingness requires source-semantic interpretation.
+EXECUTION,ESpreadDollar_SW1,Negative execution metric,0,REVIEW,Signed execution measures may legitimately be negative.
+EXECUTION,ESpreadDollar_SW1,Missing execution metric,59,REVIEW,Missingness requires source-semantic interpretation.
+EXECUTION,ESpreadPct_VW1,Negative execution metric,0,REVIEW,Signed execution measures may legitimately be negative.
+EXECUTION,ESpreadPct_VW1,Missing execution metric,59,REVIEW,Missingness requires source-semantic interpretation.
+EXECUTION,ESpreadPct_SW1,Negative execution metric,0,REVIEW,Signed execution measures may legitimately be negative.
+EXECUTION,ESpreadPct_SW1,Missing execution metric,59,REVIEW,Missingness requires source-semantic interpretation.
+EXECUTION,RSpreadDollar_SW1,Negative execution metric,14839,REVIEW,Signed execution measures may legitimately be negative.
+EXECUTION,RSpreadDollar_SW1,Missing execution metric,63,REVIEW,Missingness requires source-semantic interpretation.
+EXECUTION,RSpreadDollar_VW1,Negative execution metric,14836,REVIEW,Signed execution measures may legitimately be negative.
+EXECUTION,RSpreadDollar_VW1,Missing execution metric,63,REVIEW,Missingness requires source-semantic interpretation.
+EXECUTION,RSpreadPct_SW1,Negative execution metric,14873,REVIEW,Signed execution measures may legitimately be negative.
+EXECUTION,RSpreadPct_SW1,Missing execution metric,63,REVIEW,Missingness requires source-semantic interpretation.
+EXECUTION,RSpreadPct_VW1,Negative execution metric,14844,REVIEW,Signed execution measures may legitimately be negative.
+EXECUTION,RSpreadPct_VW1,Missing execution metric,63,REVIEW,Missingness requires source-semantic interpretation.
+EXECUTION,PriceImpactDollar_VW1,Negative execution metric,5099,REVIEW,Signed execution measures may legitimately be negative.
+EXECUTION,PriceImpactDollar_VW1,Missing execution metric,63,REVIEW,Missingness requires source-semantic interpretation.
+EXECUTION,PriceImpactDollar_SW1,Negative execution metric,5105,REVIEW,Signed execution measures may legitimately be negative.
+EXECUTION,PriceImpactDollar_SW1,Missing execution metric,63,REVIEW,Missingness requires source-semantic interpretation.
+EXECUTION,PriceImpactPct_VW1,Negative execution metric,5100,REVIEW,Signed execution measures may legitimately be negative.
+EXECUTION,PriceImpactPct_VW1,Missing execution metric,63,REVIEW,Missingness requires source-semantic interpretation.
+EXECUTION,PriceImpactPct_SW1,Negative execution metric,5106,REVIEW,Signed execution measures may legitimately be negative.
+EXECUTION,PriceImpactPct_SW1,Missing execution metric,63,REVIEW,Missingness requires source-semantic interpretation.

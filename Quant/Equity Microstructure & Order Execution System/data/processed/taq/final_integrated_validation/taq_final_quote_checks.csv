@@ -1,0 +1,33 @@
+domain,check,violation_count,severity,interpretation
+QUOTE,1pm: bid > ask,2198,REVIEW,Requires source-semantic interpretation.
+QUOTE,1pm: midpoint inconsistency,0,CRITICAL,Stored midpoint should equal the arithmetic bid/ask midpoint.
+QUOTE,1pm: negative bid,0,CRITICAL,Negative quote prices require investigation.
+QUOTE,1pm: negative ask,0,CRITICAL,Negative quote prices require investigation.
+QUOTE,c1: bid > ask,5049,REVIEW,Requires source-semantic interpretation.
+QUOTE,c1: midpoint inconsistency,0,CRITICAL,Stored midpoint should equal the arithmetic bid/ask midpoint.
+QUOTE,c1: negative bid,0,CRITICAL,Negative quote prices require investigation.
+QUOTE,c1: negative ask,0,CRITICAL,Negative quote prices require investigation.
+QUOTE,4pm: bid > ask,5350,REVIEW,Requires source-semantic interpretation.
+QUOTE,4pm: midpoint inconsistency,0,CRITICAL,Stored midpoint should equal the arithmetic bid/ask midpoint.
+QUOTE,4pm: negative bid,0,CRITICAL,Negative quote prices require investigation.
+QUOTE,4pm: negative ask,0,CRITICAL,Negative quote prices require investigation.
+QUOTE,last: bid > ask,9119,REVIEW,Requires source-semantic interpretation.
+QUOTE,last: midpoint inconsistency,0,CRITICAL,Stored midpoint should equal the arithmetic bid/ask midpoint.
+QUOTE,last: negative bid,0,CRITICAL,Negative quote prices require investigation.
+QUOTE,last: negative ask,0,CRITICAL,Negative quote prices require investigation.
+QUOTE,1pm: bid > ask,15,REVIEW,Requires source-semantic interpretation.
+QUOTE,1pm: midpoint inconsistency,0,CRITICAL,Stored midpoint should equal the arithmetic bid/ask midpoint.
+QUOTE,1pm: negative bid,0,CRITICAL,Negative quote prices require investigation.
+QUOTE,1pm: negative ask,0,CRITICAL,Negative quote prices require investigation.
+QUOTE,c1: bid > ask,51,REVIEW,Requires source-semantic interpretation.
+QUOTE,c1: midpoint inconsistency,0,CRITICAL,Stored midpoint should equal the arithmetic bid/ask midpoint.
+QUOTE,c1: negative bid,0,CRITICAL,Negative quote prices require investigation.
+QUOTE,c1: negative ask,0,CRITICAL,Negative quote prices require investigation.
+QUOTE,4pm: bid > ask,1093,REVIEW,Requires source-semantic interpretation.
+QUOTE,4pm: midpoint inconsistency,0,CRITICAL,Stored midpoint should equal the arithmetic bid/ask midpoint.
+QUOTE,4pm: negative bid,0,CRITICAL,Negative quote prices require investigation.
+QUOTE,4pm: negative ask,0,CRITICAL,Negative quote prices require investigation.
+QUOTE,last: bid > ask,689,REVIEW,Requires source-semantic interpretation.
+QUOTE,last: midpoint inconsistency,0,CRITICAL,Stored midpoint should equal the arithmetic bid/ask midpoint.
+QUOTE,last: negative bid,0,CRITICAL,Negative quote prices require investigation.
+QUOTE,last: negative ask,0,CRITICAL,Negative quote prices require investigation.

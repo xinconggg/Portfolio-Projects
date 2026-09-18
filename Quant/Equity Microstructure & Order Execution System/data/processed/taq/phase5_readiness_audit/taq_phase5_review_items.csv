@@ -1,0 +1,6 @@
+category,count,status,automatic_exclusion,automatic_correction
+Bid > ask observations,23564,REVIEW,False,False
+Negative realized-spread observations,27018,REVIEW,False,False
+Negative price-impact observations,2150,REVIEW,False,False
+Activity/order-flow consistency findings,406578,REVIEW,False,False
+Market-statistic observation-count findings,226246,REVIEW,False,False

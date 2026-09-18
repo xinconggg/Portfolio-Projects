@@ -1,0 +1,9 @@
+metric,value
+input_rows,122441
+activity_orderflow_fields_evaluated,30
+negative_activity_values,0
+missing_activity_values,3944
+trade_consistency_violations,118000
+trade_direction_violations,288578
+lot_activity_violations,0
+orderflow_violations,0

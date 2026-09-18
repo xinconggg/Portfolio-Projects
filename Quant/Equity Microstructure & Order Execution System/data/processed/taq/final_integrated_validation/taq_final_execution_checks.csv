@@ -1,0 +1,37 @@
+domain,check,violation_count,severity,interpretation
+EXECUTION,ESpreadDollar_Avg1: negative values,0,INFO,Execution metric retained without automatic sign correction.
+EXECUTION,ESpreadPct_Avg1: negative values,0,INFO,Execution metric retained without automatic sign correction.
+EXECUTION,RSpreadDollar_Avg1: negative values,15908,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,RSpreadPct_Avg1: negative values,15924,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,PriceImpactDollar_Avg1: negative values,2144,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,PriceImpactPct_Avg1: negative values,2173,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,ESpreadDollar_VW1: negative values,0,INFO,Execution metric retained without automatic sign correction.
+EXECUTION,ESpreadDollar_SW1: negative values,0,INFO,Execution metric retained without automatic sign correction.
+EXECUTION,ESpreadPct_VW1: negative values,0,INFO,Execution metric retained without automatic sign correction.
+EXECUTION,ESpreadPct_SW1: negative values,0,INFO,Execution metric retained without automatic sign correction.
+EXECUTION,RSpreadDollar_SW1: negative values,10070,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,RSpreadDollar_VW1: negative values,10071,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,RSpreadPct_SW1: negative values,10093,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,RSpreadPct_VW1: negative values,10077,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,PriceImpactDollar_VW1: negative values,4148,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,PriceImpactDollar_SW1: negative values,4150,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,PriceImpactPct_VW1: negative values,4145,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,PriceImpactPct_SW1: negative values,4153,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,ESpreadDollar_Avg1: negative values,0,INFO,Execution metric retained without automatic sign correction.
+EXECUTION,ESpreadPct_Avg1: negative values,0,INFO,Execution metric retained without automatic sign correction.
+EXECUTION,RSpreadDollar_Avg1: negative values,11110,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,RSpreadPct_Avg1: negative values,11114,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,PriceImpactDollar_Avg1: negative values,6,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,PriceImpactPct_Avg1: negative values,6,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,ESpreadDollar_VW1: negative values,0,INFO,Execution metric retained without automatic sign correction.
+EXECUTION,ESpreadDollar_SW1: negative values,0,INFO,Execution metric retained without automatic sign correction.
+EXECUTION,ESpreadPct_VW1: negative values,0,INFO,Execution metric retained without automatic sign correction.
+EXECUTION,ESpreadPct_SW1: negative values,0,INFO,Execution metric retained without automatic sign correction.
+EXECUTION,RSpreadDollar_SW1: negative values,4769,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,RSpreadDollar_VW1: negative values,4765,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,RSpreadPct_SW1: negative values,4780,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,RSpreadPct_VW1: negative values,4767,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,PriceImpactDollar_VW1: negative values,951,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,PriceImpactDollar_SW1: negative values,955,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,PriceImpactPct_VW1: negative values,955,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.
+EXECUTION,PriceImpactPct_SW1: negative values,953,REVIEW,Signed execution metric; negative values can be economically valid and require semantic interpretation.

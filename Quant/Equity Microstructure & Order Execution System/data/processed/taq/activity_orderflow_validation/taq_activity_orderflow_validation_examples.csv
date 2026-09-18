@@ -1,0 +1,81 @@
+diagnostic_type,row_index,symbol,date,field_1,value_1,field_2,value_2,description
+TRADE_COUNT,0,AAPL,1993-04-06,NumTrades_t,1032.0,NumTrades_m,1019.0,NumTrades_t exceeds NumTrades_m
+TRADE_COUNT,1,AAPL,1993-04-07,NumTrades_t,922.0,NumTrades_m,901.0,NumTrades_t exceeds NumTrades_m
+TRADE_COUNT,2,AAPL,1993-04-08,NumTrades_t,776.0,NumTrades_m,769.0,NumTrades_t exceeds NumTrades_m
+TRADE_COUNT,3,AAPL,1993-04-12,NumTrades_t,661.0,NumTrades_m,641.0,NumTrades_t exceeds NumTrades_m
+TRADE_COUNT,4,AAPL,1993-04-13,NumTrades_t,1037.0,NumTrades_m,987.0,NumTrades_t exceeds NumTrades_m
+TRADE_COUNT,5,AAPL,1993-04-14,NumTrades_t,1087.0,NumTrades_m,1065.0,NumTrades_t exceeds NumTrades_m
+TRADE_COUNT,6,AAPL,1993-04-15,NumTrades_t,1448.0,NumTrades_m,1372.0,NumTrades_t exceeds NumTrades_m
+TRADE_COUNT,7,AAPL,1993-04-16,NumTrades_t,2182.0,NumTrades_m,2157.0,NumTrades_t exceeds NumTrades_m
+TRADE_COUNT,8,AAPL,1993-04-19,NumTrades_t,1012.0,NumTrades_m,993.0,NumTrades_t exceeds NumTrades_m
+TRADE_COUNT,9,AAPL,1993-04-20,NumTrades_t,1055.0,NumTrades_m,1037.0,NumTrades_t exceeds NumTrades_m
+TRADE_DIRECTION,0,AAPL,1993-04-06,BuyNumTrades_LR1 + SellNumTrades_LR1,1032.0,NumTrades_m,1019.0,Directional trade count exceeds total trade count
+TRADE_DIRECTION,1,AAPL,1993-04-07,BuyNumTrades_LR1 + SellNumTrades_LR1,922.0,NumTrades_m,901.0,Directional trade count exceeds total trade count
+TRADE_DIRECTION,2,AAPL,1993-04-08,BuyNumTrades_LR1 + SellNumTrades_LR1,776.0,NumTrades_m,769.0,Directional trade count exceeds total trade count
+TRADE_DIRECTION,3,AAPL,1993-04-12,BuyNumTrades_LR1 + SellNumTrades_LR1,661.0,NumTrades_m,641.0,Directional trade count exceeds total trade count
+TRADE_DIRECTION,4,AAPL,1993-04-13,BuyNumTrades_LR1 + SellNumTrades_LR1,1037.0,NumTrades_m,987.0,Directional trade count exceeds total trade count
+TRADE_DIRECTION,5,AAPL,1993-04-14,BuyNumTrades_LR1 + SellNumTrades_LR1,1087.0,NumTrades_m,1065.0,Directional trade count exceeds total trade count
+TRADE_DIRECTION,6,AAPL,1993-04-15,BuyNumTrades_LR1 + SellNumTrades_LR1,1448.0,NumTrades_m,1372.0,Directional trade count exceeds total trade count
+TRADE_DIRECTION,7,AAPL,1993-04-16,BuyNumTrades_LR1 + SellNumTrades_LR1,2181.0,NumTrades_m,2157.0,Directional trade count exceeds total trade count
+TRADE_DIRECTION,8,AAPL,1993-04-19,BuyNumTrades_LR1 + SellNumTrades_LR1,1012.0,NumTrades_m,993.0,Directional trade count exceeds total trade count
+TRADE_DIRECTION,9,AAPL,1993-04-20,BuyNumTrades_LR1 + SellNumTrades_LR1,1055.0,NumTrades_m,1037.0,Directional trade count exceeds total trade count
+TRADE_DIRECTION,0,AAPL,1993-04-06,BuyVol_LR1 + SellVol_LR1,1503300.0,SumVolume_m,1484800.0,Directional volume exceeds total volume
+TRADE_DIRECTION,1,AAPL,1993-04-07,BuyVol_LR1 + SellVol_LR1,1454000.0,SumVolume_m,1377300.0,Directional volume exceeds total volume
+TRADE_DIRECTION,2,AAPL,1993-04-08,BuyVol_LR1 + SellVol_LR1,1459200.0,SumVolume_m,1449700.0,Directional volume exceeds total volume
+TRADE_DIRECTION,3,AAPL,1993-04-12,BuyVol_LR1 + SellVol_LR1,830800.0,SumVolume_m,702100.0,Directional volume exceeds total volume
+TRADE_DIRECTION,4,AAPL,1993-04-13,BuyVol_LR1 + SellVol_LR1,1468600.0,SumVolume_m,1402900.0,Directional volume exceeds total volume
+TRADE_DIRECTION,5,AAPL,1993-04-14,BuyVol_LR1 + SellVol_LR1,1518400.0,SumVolume_m,1424100.0,Directional volume exceeds total volume
+TRADE_DIRECTION,6,AAPL,1993-04-15,BuyVol_LR1 + SellVol_LR1,1952700.0,SumVolume_m,1835000.0,Directional volume exceeds total volume
+TRADE_DIRECTION,7,AAPL,1993-04-16,BuyVol_LR1 + SellVol_LR1,6122100.0,SumVolume_m,6093800.0,Directional volume exceeds total volume
+TRADE_DIRECTION,8,AAPL,1993-04-19,BuyVol_LR1 + SellVol_LR1,2034500.0,SumVolume_m,1892400.0,Directional volume exceeds total volume
+TRADE_DIRECTION,9,AAPL,1993-04-20,BuyVol_LR1 + SellVol_LR1,2143300.0,SumVolume_m,2086500.0,Directional volume exceeds total volume
+TRADE_DIRECTION,0,AAPL,1993-04-06,BuyDollar_LR1 + SellDollar_LR1,74260612.5,SumValue_m,73357750.0,Directional dollar value exceeds total dollar value
+TRADE_DIRECTION,1,AAPL,1993-04-07,BuyDollar_LR1 + SellDollar_LR1,71873137.5,SumValue_m,67990562.5,Directional dollar value exceeds total dollar value
+TRADE_DIRECTION,2,AAPL,1993-04-08,BuyDollar_LR1 + SellDollar_LR1,72699862.5,SumValue_m,72228875.0,Directional dollar value exceeds total dollar value
+TRADE_DIRECTION,3,AAPL,1993-04-12,BuyDollar_LR1 + SellDollar_LR1,41706050.0,SumValue_m,35270500.0,Directional dollar value exceeds total dollar value
+TRADE_DIRECTION,4,AAPL,1993-04-13,BuyDollar_LR1 + SellDollar_LR1,73638587.5,SumValue_m,70449200.0,Directional dollar value exceeds total dollar value
+TRADE_DIRECTION,5,AAPL,1993-04-14,BuyDollar_LR1 + SellDollar_LR1,73250775.0,SumValue_m,68671012.5,Directional dollar value exceeds total dollar value
+TRADE_DIRECTION,6,AAPL,1993-04-15,BuyDollar_LR1 + SellDollar_LR1,92957900.0,SumValue_m,87419037.5,Directional dollar value exceeds total dollar value
+TRADE_DIRECTION,7,AAPL,1993-04-16,BuyDollar_LR1 + SellDollar_LR1,294887350.0,SumValue_m,293522262.5,Directional dollar value exceeds total dollar value
+TRADE_DIRECTION,8,AAPL,1993-04-19,BuyDollar_LR1 + SellDollar_LR1,98862525.0,SumValue_m,92003237.5,Directional dollar value exceeds total dollar value
+TRADE_DIRECTION,9,AAPL,1993-04-20,BuyDollar_LR1 + SellDollar_LR1,104891250.0,SumValue_m,102096112.5,Directional dollar value exceeds total dollar value
+TRADE_COUNT,100000,PFE,2009-07-01,NumTrades_t,123887.0,NumTrades_m,123782.0,NumTrades_t exceeds NumTrades_m
+TRADE_COUNT,100001,PFE,2009-07-02,NumTrades_t,97406.0,NumTrades_m,97189.0,NumTrades_t exceeds NumTrades_m
+TRADE_COUNT,100002,PFE,2009-07-06,NumTrades_t,113382.0,NumTrades_m,113311.0,NumTrades_t exceeds NumTrades_m
+TRADE_COUNT,100003,PFE,2009-07-07,NumTrades_t,149662.0,NumTrades_m,149585.0,NumTrades_t exceeds NumTrades_m
+TRADE_COUNT,100004,PFE,2009-07-08,NumTrades_t,126132.0,NumTrades_m,126009.0,NumTrades_t exceeds NumTrades_m
+TRADE_COUNT,100005,PFE,2009-07-09,NumTrades_t,128066.0,NumTrades_m,127922.0,NumTrades_t exceeds NumTrades_m
+TRADE_COUNT,100006,PFE,2009-07-10,NumTrades_t,94617.0,NumTrades_m,94547.0,NumTrades_t exceeds NumTrades_m
+TRADE_COUNT,100007,PFE,2009-07-13,NumTrades_t,129190.0,NumTrades_m,129123.0,NumTrades_t exceeds NumTrades_m
+TRADE_COUNT,100008,PFE,2009-07-14,NumTrades_t,99426.0,NumTrades_m,99255.0,NumTrades_t exceeds NumTrades_m
+TRADE_COUNT,100009,PFE,2009-07-15,NumTrades_t,100404.0,NumTrades_m,100312.0,NumTrades_t exceeds NumTrades_m
+TRADE_DIRECTION,100000,PFE,2009-07-01,BuyNumTrades_LR1 + SellNumTrades_LR1,123887.0,NumTrades_m,123782.0,Directional trade count exceeds total trade count
+TRADE_DIRECTION,100001,PFE,2009-07-02,BuyNumTrades_LR1 + SellNumTrades_LR1,97406.0,NumTrades_m,97189.0,Directional trade count exceeds total trade count
+TRADE_DIRECTION,100002,PFE,2009-07-06,BuyNumTrades_LR1 + SellNumTrades_LR1,113382.0,NumTrades_m,113311.0,Directional trade count exceeds total trade count
+TRADE_DIRECTION,100003,PFE,2009-07-07,BuyNumTrades_LR1 + SellNumTrades_LR1,149662.0,NumTrades_m,149585.0,Directional trade count exceeds total trade count
+TRADE_DIRECTION,100004,PFE,2009-07-08,BuyNumTrades_LR1 + SellNumTrades_LR1,126132.0,NumTrades_m,126009.0,Directional trade count exceeds total trade count
+TRADE_DIRECTION,100005,PFE,2009-07-09,BuyNumTrades_LR1 + SellNumTrades_LR1,128066.0,NumTrades_m,127922.0,Directional trade count exceeds total trade count
+TRADE_DIRECTION,100006,PFE,2009-07-10,BuyNumTrades_LR1 + SellNumTrades_LR1,94617.0,NumTrades_m,94547.0,Directional trade count exceeds total trade count
+TRADE_DIRECTION,100007,PFE,2009-07-13,BuyNumTrades_LR1 + SellNumTrades_LR1,129190.0,NumTrades_m,129123.0,Directional trade count exceeds total trade count
+TRADE_DIRECTION,100008,PFE,2009-07-14,BuyNumTrades_LR1 + SellNumTrades_LR1,99426.0,NumTrades_m,99255.0,Directional trade count exceeds total trade count
+TRADE_DIRECTION,100009,PFE,2009-07-15,BuyNumTrades_LR1 + SellNumTrades_LR1,100404.0,NumTrades_m,100312.0,Directional trade count exceeds total trade count
+TRADE_DIRECTION,100000,PFE,2009-07-01,BuyVol_LR1 + SellVol_LR1,46820942.0,SumVolume_m,44610762.0,Directional volume exceeds total volume
+TRADE_DIRECTION,100001,PFE,2009-07-02,BuyVol_LR1 + SellVol_LR1,41334765.0,SumVolume_m,38561399.0,Directional volume exceeds total volume
+TRADE_DIRECTION,100002,PFE,2009-07-06,BuyVol_LR1 + SellVol_LR1,54939756.0,SumVolume_m,53594181.0,Directional volume exceeds total volume
+TRADE_DIRECTION,100003,PFE,2009-07-07,BuyVol_LR1 + SellVol_LR1,60924236.0,SumVolume_m,58097405.0,Directional volume exceeds total volume
+TRADE_DIRECTION,100004,PFE,2009-07-08,BuyVol_LR1 + SellVol_LR1,50628682.0,SumVolume_m,48226772.0,Directional volume exceeds total volume
+TRADE_DIRECTION,100005,PFE,2009-07-09,BuyVol_LR1 + SellVol_LR1,61378716.0,SumVolume_m,59438925.0,Directional volume exceeds total volume
+TRADE_DIRECTION,100006,PFE,2009-07-10,BuyVol_LR1 + SellVol_LR1,38940256.0,SumVolume_m,37331667.0,Directional volume exceeds total volume
+TRADE_DIRECTION,100007,PFE,2009-07-13,BuyVol_LR1 + SellVol_LR1,53042883.0,SumVolume_m,49977192.0,Directional volume exceeds total volume
+TRADE_DIRECTION,100008,PFE,2009-07-14,BuyVol_LR1 + SellVol_LR1,37338236.0,SumVolume_m,34414013.0,Directional volume exceeds total volume
+TRADE_DIRECTION,100009,PFE,2009-07-15,BuyVol_LR1 + SellVol_LR1,43554974.0,SumVolume_m,40827737.0,Directional volume exceeds total volume
+TRADE_DIRECTION,100000,PFE,2009-07-01,BuyDollar_LR1 + SellDollar_LR1,697365391.98,SumValue_m,664437970.26,Directional dollar value exceeds total dollar value
+TRADE_DIRECTION,100001,PFE,2009-07-02,BuyDollar_LR1 + SellDollar_LR1,601001276.0799999,SumValue_m,560787986.57,Directional dollar value exceeds total dollar value
+TRADE_DIRECTION,100002,PFE,2009-07-06,BuyDollar_LR1 + SellDollar_LR1,792464562.0699999,SumValue_m,772891152.24,Directional dollar value exceeds total dollar value
+TRADE_DIRECTION,100003,PFE,2009-07-07,BuyDollar_LR1 + SellDollar_LR1,893862443.01,SumValue_m,852628677.75,Directional dollar value exceeds total dollar value
+TRADE_DIRECTION,100004,PFE,2009-07-08,BuyDollar_LR1 + SellDollar_LR1,742662982.04,SumValue_m,707546038.74,Directional dollar value exceeds total dollar value
+TRADE_DIRECTION,100005,PFE,2009-07-09,BuyDollar_LR1 + SellDollar_LR1,879929754.33,SumValue_m,852211535.8,Directional dollar value exceeds total dollar value
+TRADE_DIRECTION,100006,PFE,2009-07-10,BuyDollar_LR1 + SellDollar_LR1,552794279.77,SumValue_m,529945820.02,Directional dollar value exceeds total dollar value
+TRADE_DIRECTION,100007,PFE,2009-07-13,BuyDollar_LR1 + SellDollar_LR1,774359126.84,SumValue_m,729109800.67,Directional dollar value exceeds total dollar value
+TRADE_DIRECTION,100008,PFE,2009-07-14,BuyDollar_LR1 + SellDollar_LR1,552816323.9,SumValue_m,509401485.2,Directional dollar value exceeds total dollar value
+TRADE_DIRECTION,100009,PFE,2009-07-15,BuyDollar_LR1 + SellDollar_LR1,649572186.11,SumValue_m,608634902.93,Directional dollar value exceeds total dollar value

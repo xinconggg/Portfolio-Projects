@@ -1,0 +1,5 @@
+quote_set,bid_column,ask_column,mid_column,bid_greater_than_ask_count,midpoint_inconsistent_count,semantic_diagnostic_status,automatic_cleaning_decision,manual_review_required,interpretation
+1pm,BB_1pm,BO_1pm,MID_1pm,2198,0,VIOLATIONS_PRESENT_MIDPOINT_CONSISTENT,NO_ACTION,True,Bid greater than ask observations require semantic review. No quote values should be changed solely from this diagnostic.
+c1,BB_c1,BO_c1,Mid_c1,5049,0,VIOLATIONS_PRESENT_MIDPOINT_CONSISTENT,NO_ACTION,True,Bid greater than ask observations require semantic review. No quote values should be changed solely from this diagnostic.
+4pm,BB_4pm,BO_4pm,Mid_4pm,5350,0,VIOLATIONS_PRESENT_MIDPOINT_CONSISTENT,NO_ACTION,True,Bid greater than ask observations require semantic review. No quote values should be changed solely from this diagnostic.
+last,LBB,LBO,LMid,9119,0,VIOLATIONS_PRESENT_MIDPOINT_CONSISTENT,NO_ACTION,True,Bid greater than ask observations require semantic review. No quote values should be changed solely from this diagnostic.

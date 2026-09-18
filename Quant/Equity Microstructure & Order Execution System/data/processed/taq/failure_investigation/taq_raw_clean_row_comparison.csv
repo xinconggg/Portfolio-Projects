@@ -1,0 +1,13 @@
+column,raw_missing,clean_missing,exact_or_numeric_match_count,mismatch_count,max_absolute_difference
+BB_1pm,3,3,122441,0,0.0
+BO_1pm,3,3,122441,0,0.0
+MID_1pm,3,3,122441,0,0.0
+BB_c1,1,1,122441,0,0.0
+BO_c1,1,1,122441,0,0.0
+Mid_c1,1,1,122441,0,0.0
+BB_4pm,1,1,122441,0,0.0
+BO_4pm,1,1,122441,0,0.0
+Mid_4pm,1,1,122441,0,0.0
+LBB,0,0,122441,0,0.0
+LBO,0,0,122441,0,0.0
+LMid,0,0,122441,0,0.0

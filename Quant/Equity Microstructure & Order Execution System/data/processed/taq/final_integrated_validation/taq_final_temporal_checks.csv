@@ -1,0 +1,23 @@
+domain,check,violation_count,severity,interpretation
+TEMPORAL,QTime_1pm: unparsable time,0,CRITICAL,Time-only fields must remain parseable.
+TEMPORAL,QTime_c1: unparsable time,0,CRITICAL,Time-only fields must remain parseable.
+TEMPORAL,QTime_4pm: unparsable time,0,CRITICAL,Time-only fields must remain parseable.
+TEMPORAL,LQTime: unparsable time,0,CRITICAL,Time-only fields must remain parseable.
+TEMPORAL,OTime: unparsable time,0,CRITICAL,Time-only fields must remain parseable.
+TEMPORAL,DTime: unparsable time,0,CRITICAL,Time-only fields must remain parseable.
+TEMPORAL,LTTime: unparsable time,0,CRITICAL,Time-only fields must remain parseable.
+TEMPORAL,TTime_1pm: unparsable time,0,CRITICAL,Time-only fields must remain parseable.
+TEMPORAL,TTime_4pm: unparsable time,0,CRITICAL,Time-only fields must remain parseable.
+TEMPORAL,CTime: unparsable time,0,CRITICAL,Time-only fields must remain parseable.
+TEMPORAL,CTime2: unparsable time,0,CRITICAL,Time-only fields must remain parseable.
+TEMPORAL,QTime_1pm: unparsable time,0,CRITICAL,Time-only fields must remain parseable.
+TEMPORAL,QTime_c1: unparsable time,0,CRITICAL,Time-only fields must remain parseable.
+TEMPORAL,QTime_4pm: unparsable time,0,CRITICAL,Time-only fields must remain parseable.
+TEMPORAL,LQTime: unparsable time,0,CRITICAL,Time-only fields must remain parseable.
+TEMPORAL,OTime: unparsable time,0,CRITICAL,Time-only fields must remain parseable.
+TEMPORAL,DTime: unparsable time,0,CRITICAL,Time-only fields must remain parseable.
+TEMPORAL,LTTime: unparsable time,0,CRITICAL,Time-only fields must remain parseable.
+TEMPORAL,TTime_1pm: unparsable time,0,CRITICAL,Time-only fields must remain parseable.
+TEMPORAL,TTime_4pm: unparsable time,0,CRITICAL,Time-only fields must remain parseable.
+TEMPORAL,CTime: unparsable time,0,CRITICAL,Time-only fields must remain parseable.
+TEMPORAL,CTime2: unparsable time,0,CRITICAL,Time-only fields must remain parseable.

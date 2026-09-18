@@ -1,0 +1,9 @@
+domain,quote_set,check,violation_count,severity,interpretation
+QUOTE,1pm,Bid greater than ask,2213,REVIEW,Requires source-semantic interpretation.
+QUOTE,1pm,Midpoint inconsistency,0,REVIEW,Stored midpoint differs from bid/ask midpoint.
+QUOTE,c1,Bid greater than ask,5100,REVIEW,Requires source-semantic interpretation.
+QUOTE,c1,Midpoint inconsistency,0,REVIEW,Stored midpoint differs from bid/ask midpoint.
+QUOTE,4pm,Bid greater than ask,6443,REVIEW,Requires source-semantic interpretation.
+QUOTE,4pm,Midpoint inconsistency,0,REVIEW,Stored midpoint differs from bid/ask midpoint.
+QUOTE,last,Bid greater than ask,9808,REVIEW,Requires source-semantic interpretation.
+QUOTE,last,Midpoint inconsistency,0,REVIEW,Stored midpoint differs from bid/ask midpoint.

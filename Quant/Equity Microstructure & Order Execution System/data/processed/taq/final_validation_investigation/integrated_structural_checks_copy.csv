@@ -1,0 +1,7 @@
+domain,check,violation_count,severity,interpretation
+STRUCTURAL,Missing date,60588,CRITICAL,Canonical TAQ rows must contain a valid date.
+STRUCTURAL,Missing symbol,0,CRITICAL,Canonical TAQ rows must contain a security identifier.
+STRUCTURAL,Date-symbol duplicate rows,0,CRITICAL,Date-symbol should identify one canonical daily observation.
+STRUCTURAL,Missing date,13584,CRITICAL,Canonical TAQ rows must contain a valid date.
+STRUCTURAL,Missing symbol,0,CRITICAL,Canonical TAQ rows must contain a security identifier.
+STRUCTURAL,Date-symbol duplicate rows,0,CRITICAL,Date-symbol should identify one canonical daily observation.

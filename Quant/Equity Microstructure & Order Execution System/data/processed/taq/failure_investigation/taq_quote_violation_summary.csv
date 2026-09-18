@@ -1,0 +1,5 @@
+quote_set,bid_column,ask_column,mid_column,bid_ask_violations,midpoint_violations,non_null_bid,non_null_ask,non_null_mid
+1pm,BB_1pm,BO_1pm,MID_1pm,2213,0,122438,122438,122438
+c1,BB_c1,BO_c1,Mid_c1,5100,0,122440,122440,122440
+4pm,BB_4pm,BO_4pm,Mid_4pm,6443,0,122440,122440,122440
+last,LBB,LBO,LMid,9808,0,122441,122441,122441

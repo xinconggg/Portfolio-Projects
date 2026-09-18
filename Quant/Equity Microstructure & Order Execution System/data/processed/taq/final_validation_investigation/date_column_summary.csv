@@ -1,0 +1,4 @@
+column,rows,missing_count,missing_rate,unique_dates,first_date,last_date
+date,122441,74172,0.6057774764988851,1987,1993-01-02,2012-12-12
+date_normalized,122441,0,0.0,5036,1993-01-04,2012-12-31
+date_iso,122441,0,0.0,5036,1993-01-04,2012-12-31

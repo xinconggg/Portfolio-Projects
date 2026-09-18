@@ -1,0 +1,21 @@
+domain,check,violation_count,severity,interpretation
+MARKET_STATISTICS,IVol_t_m: negative values,0,CRITICAL,Volatility-type measures should not be negative.
+MARKET_STATISTICS,IVol_q_m: negative values,0,CRITICAL,Volatility-type measures should not be negative.
+MARKET_STATISTICS,NObsUsed1: negative observations,0,CRITICAL,Observation counts should not be negative.
+MARKET_STATISTICS,NObsUsed2: negative observations,0,CRITICAL,Observation counts should not be negative.
+MARKET_STATISTICS,NumTimeUnitsWithTrade1: negative observations,0,CRITICAL,Observation counts should not be negative.
+MARKET_STATISTICS,NumTimeUnitsWithTrade2: negative observations,0,CRITICAL,Observation counts should not be negative.
+MARKET_STATISTICS,Extreme quote counts > total trades,29284,REVIEW,Requires interpretation of source population.
+MARKET_STATISTICS,Ret_pre_t: non-finite values,0,CRITICAL,Returns must be finite when populated.
+MARKET_STATISTICS,Ret_mkt_t: non-finite values,0,CRITICAL,Returns must be finite when populated.
+MARKET_STATISTICS,Ret_post_t: non-finite values,0,CRITICAL,Returns must be finite when populated.
+MARKET_STATISTICS,IVol_t_m: negative values,0,CRITICAL,Volatility-type measures should not be negative.
+MARKET_STATISTICS,IVol_q_m: negative values,0,CRITICAL,Volatility-type measures should not be negative.
+MARKET_STATISTICS,NObsUsed1: negative observations,0,CRITICAL,Observation counts should not be negative.
+MARKET_STATISTICS,NObsUsed2: negative observations,0,CRITICAL,Observation counts should not be negative.
+MARKET_STATISTICS,NumTimeUnitsWithTrade1: negative observations,0,CRITICAL,Observation counts should not be negative.
+MARKET_STATISTICS,NumTimeUnitsWithTrade2: negative observations,0,CRITICAL,Observation counts should not be negative.
+MARKET_STATISTICS,Extreme quote counts > total trades,8990,REVIEW,Requires interpretation of source population.
+MARKET_STATISTICS,Ret_pre_t: non-finite values,0,CRITICAL,Returns must be finite when populated.
+MARKET_STATISTICS,Ret_mkt_t: non-finite values,0,CRITICAL,Returns must be finite when populated.
+MARKET_STATISTICS,Ret_post_t: non-finite values,0,CRITICAL,Returns must be finite when populated.
