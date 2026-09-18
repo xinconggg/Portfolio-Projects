@@ -1,0 +1,7 @@
+check_name,category,status,observed,threshold,details
+schema_preservation,SCHEMA,FAIL,127,102,"Missing from cleaned: []; Unexpected in cleaned: ['date_normalized', 'date_iso', 'symbol_normalized', 'QTime_1pm_normalized', 'QTime_1pm_seconds', 'QTime_c1_normalized', 'QTime_c1_seconds', 'QTime_4pm_normalized', 'QTime_4pm_seconds', 'LQTime_normalized', 'LQTime_seconds', 'OTime_normalized', 'OTime_seconds', 'DTime_normalized', 'DTime_seconds', 'LTTime_normalized', 'LTTime_seconds', 'TTime_1pm_normalized', 'TTime_1pm_seconds', 'TTime_4pm_normalized', 'TTime_4pm_seconds', 'CTime_normalized', 'CTime_seconds', 'CTime2_normalized', 'CTime2_seconds']"
+row_count_preservation,STRUCTURAL,PASS,122441,122441,Difference = 0
+date_parse_chunk_1,DATE,FAIL,60588,0,Date values that cannot be parsed.
+symbol_missing_chunk_1,IDENTIFIER,PASS,0,0,Missing security identifiers.
+date_parse_chunk_2,DATE,FAIL,13584,0,Date values that cannot be parsed.
+symbol_missing_chunk_2,IDENTIFIER,PASS,0,0,Missing security identifiers.

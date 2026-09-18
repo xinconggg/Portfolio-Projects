@@ -1,0 +1,13 @@
+metric,value
+source_rows,122441
+cleaned_rows,122441
+rows_removed,0
+rows_imputed,0
+values_clipped,0
+unique_symbols,29
+unique_dates,5036
+date_parse_failures,0
+numeric_conversion_failures,0
+time_parse_failures,0
+source_columns,102
+cleaning_policy,NORMALIZATION_ONLY; NO_ROW_EXCLUSION; NO_IMPUTATION; NO_METRIC_CLIPPING

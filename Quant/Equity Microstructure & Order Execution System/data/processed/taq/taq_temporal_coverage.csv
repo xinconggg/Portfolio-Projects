@@ -1,0 +1,2 @@
+dataset,source_path,total_rows,first_date,last_date,unique_dates,unique_symbols,missing_date_rows,malformed_date_rows,date_symbol_duplicate_candidates,calendar_date_gaps,expected_or_observed_frequency,timestamp_columns
+taq.csv,C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\raw\taq\taq.csv,122441,1993-01-02,2012-12-12,1987,29,0,74172,0,5298,OBSERVED_DAILY_SECURITY_LEVEL,"CTime, CTime2, DTime, LQTime, LTTime, NumTimeUnitsWithTrade1, NumTimeUnitsWithTrade2, OTime, QTime_1pm, QTime_4pm, QTime_c1, TTime_1pm, TTime_4pm"

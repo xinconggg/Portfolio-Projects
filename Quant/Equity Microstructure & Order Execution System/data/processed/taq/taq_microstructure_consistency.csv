@@ -1,0 +1,87 @@
+diagnostic,test_type,observations,violations,description
+NumTrades_t_vs_NumTrades_m,DIFFERENCE,122441,0,NumTrades_t should not be negative.
+BuySellTradeCount_vs_Total,RECONCILIATION,122441,44520,BuyNumTrades_LR1 + SellNumTrades_LR1 compared with NumTrades_t.
+BuySellVolume_vs_Total,RECONCILIATION,122441,44520,BuyVol_LR1 + SellVol_LR1 compared with SumVolume_t.
+BuySellDollar_vs_Total,RECONCILIATION,122441,122386,BuyDollar_LR1 + SellDollar_LR1 compared with SumValue_b.
+TradeComponents_vs_Total,BOUND,122441,0,ISO + odd-lot + mixed-lot trade counts should not exceed total trades.
+VolumeComponents_vs_Total,BOUND,122441,0,ISO + odd-lot + mixed-lot volume should not exceed total volume.
+NumTrades_t_nonnegative,VALIDITY,122441,0,NumTrades_t should not contain negative values.
+NumTrades_m_nonnegative,VALIDITY,122441,0,NumTrades_m should not contain negative values.
+NumISOTrades_m_nonnegative,VALIDITY,122441,0,NumISOTrades_m should not contain negative values.
+NumOddLotTrades_m_nonnegative,VALIDITY,122441,0,NumOddLotTrades_m should not contain negative values.
+NumMixedLotTrades_m_nonnegative,VALIDITY,122441,0,NumMixedLotTrades_m should not contain negative values.
+SumVolume_t_nonnegative,VALIDITY,122441,0,SumVolume_t should not contain negative values.
+SumVolume_m_nonnegative,VALIDITY,122441,0,SumVolume_m should not contain negative values.
+SumISOVolume_m_nonnegative,VALIDITY,122441,0,SumISOVolume_m should not contain negative values.
+SumOddLotVolume_m_nonnegative,VALIDITY,122441,0,SumOddLotVolume_m should not contain negative values.
+SumMixedLotVolume_m_nonnegative,VALIDITY,122441,0,SumMixedLotVolume_m should not contain negative values.
+BuyVol_LR1_nonnegative,VALIDITY,122441,0,BuyVol_LR1 should not contain negative values.
+SellVol_LR1_nonnegative,VALIDITY,122441,0,SellVol_LR1 should not contain negative values.
+SumValue_b_nonnegative,VALIDITY,122441,0,SumValue_b should not contain negative values.
+SumValue_m_nonnegative,VALIDITY,122441,0,SumValue_m should not contain negative values.
+SumISOValue_m_nonnegative,VALIDITY,122441,0,SumISOValue_m should not contain negative values.
+SumOddLotValue_m_nonnegative,VALIDITY,122441,0,SumOddLotValue_m should not contain negative values.
+SumMixedLotValue_m_nonnegative,VALIDITY,122441,0,SumMixedLotValue_m should not contain negative values.
+BuyDollar_LR1_nonnegative,VALIDITY,122441,0,BuyDollar_LR1 should not contain negative values.
+SellDollar_LR1_nonnegative,VALIDITY,122441,0,SellDollar_LR1 should not contain negative values.
+1PM_MID_BELOW_BID,QUOTE_RELATIONSHIP,122438,2213,MID_1pm < BB_1pm.
+1PM_MID_ABOVE_ASK,QUOTE_RELATIONSHIP,122438,2213,MID_1pm > BO_1pm.
+1PM_CROSSED,QUOTE_RELATIONSHIP,122438,2213,BO_1pm < BB_1pm.
+1PM_LOCKED,QUOTE_STATE,122438,2830,Bid equals ask.
+C1_MID_BELOW_BID,QUOTE_RELATIONSHIP,122440,5100,Mid_c1 < BB_c1.
+C1_MID_ABOVE_ASK,QUOTE_RELATIONSHIP,122440,5100,Mid_c1 > BO_c1.
+C1_CROSSED,QUOTE_RELATIONSHIP,122440,5100,BO_c1 < BB_c1.
+C1_LOCKED,QUOTE_STATE,122440,4550,Bid equals ask.
+4PM_MID_BELOW_BID,QUOTE_RELATIONSHIP,122440,6443,Mid_4pm < BB_4pm.
+4PM_MID_ABOVE_ASK,QUOTE_RELATIONSHIP,122440,6443,Mid_4pm > BO_4pm.
+4PM_CROSSED,QUOTE_RELATIONSHIP,122440,6443,BO_4pm < BB_4pm.
+4PM_LOCKED,QUOTE_STATE,122440,6960,Bid equals ask.
+LAST_MID_BELOW_BID,QUOTE_RELATIONSHIP,122441,9808,LMid < LBB.
+LAST_MID_ABOVE_ASK,QUOTE_RELATIONSHIP,122441,9808,LMid > LBO.
+LAST_CROSSED,QUOTE_RELATIONSHIP,122441,9808,LBO < LBB.
+LAST_LOCKED,QUOTE_STATE,122441,5715,Bid equals ask.
+1PM_NEGATIVE_QUOTE_SPREAD,QUOTE_VALIDITY,122438,2213,Ask minus bid is negative.
+1PM_LOCKED_QUOTE,QUOTE_STATE,122438,2830,Ask minus bid equals zero.
+C1_NEGATIVE_QUOTE_SPREAD,QUOTE_VALIDITY,122440,5100,Ask minus bid is negative.
+C1_LOCKED_QUOTE,QUOTE_STATE,122440,4550,Ask minus bid equals zero.
+4PM_NEGATIVE_QUOTE_SPREAD,QUOTE_VALIDITY,122440,6443,Ask minus bid is negative.
+4PM_LOCKED_QUOTE,QUOTE_STATE,122440,6960,Ask minus bid equals zero.
+LAST_NEGATIVE_QUOTE_SPREAD,QUOTE_VALIDITY,122441,9808,Ask minus bid is negative.
+LAST_LOCKED_QUOTE,QUOTE_STATE,122441,5715,Ask minus bid equals zero.
+BB_1pm_POSITIVE,PRICE_VALIDITY,122438,0,BB_1pm <= 0.
+BO_1pm_POSITIVE,PRICE_VALIDITY,122438,0,BO_1pm <= 0.
+MID_1pm_POSITIVE,PRICE_VALIDITY,122438,0,MID_1pm <= 0.
+BB_c1_POSITIVE,PRICE_VALIDITY,122440,0,BB_c1 <= 0.
+BO_c1_POSITIVE,PRICE_VALIDITY,122440,0,BO_c1 <= 0.
+Mid_c1_POSITIVE,PRICE_VALIDITY,122440,0,Mid_c1 <= 0.
+BB_4pm_POSITIVE,PRICE_VALIDITY,122440,0,BB_4pm <= 0.
+BO_4pm_POSITIVE,PRICE_VALIDITY,122440,0,BO_4pm <= 0.
+Mid_4pm_POSITIVE,PRICE_VALIDITY,122440,0,Mid_4pm <= 0.
+LBB_POSITIVE,PRICE_VALIDITY,122441,0,LBB <= 0.
+LBO_POSITIVE,PRICE_VALIDITY,122441,0,LBO <= 0.
+LMid_POSITIVE,PRICE_VALIDITY,122441,0,LMid <= 0.
+CPrc_POSITIVE,PRICE_VALIDITY,122440,0,CPrc <= 0.
+CPrc2_POSITIVE,PRICE_VALIDITY,122440,0,CPrc2 <= 0.
+OPrice_POSITIVE,PRICE_VALIDITY,122441,0,OPrice <= 0.
+DPrice_POSITIVE,PRICE_VALIDITY,122439,0,DPrice <= 0.
+LPrice_POSITIVE,PRICE_VALIDITY,114459,0,LPrice <= 0.
+Price_1pm_POSITIVE,PRICE_VALIDITY,122293,0,Price_1pm <= 0.
+Price_4pm_POSITIVE,PRICE_VALIDITY,122439,0,Price_4pm <= 0.
+ESpreadDollar_Avg1_NEGATIVE_OBSERVATIONS,DESCRIPTIVE,122382,0,Negative values are reported descriptively; they are not treated as invalid observations.
+ESpreadPct_Avg1_NEGATIVE_OBSERVATIONS,DESCRIPTIVE,122382,0,Negative values are reported descriptively; they are not treated as invalid observations.
+RSpreadDollar_Avg1_NEGATIVE_OBSERVATIONS,DESCRIPTIVE,122378,27018,Negative values are reported descriptively; they are not treated as invalid observations.
+RSpreadPct_Avg1_NEGATIVE_OBSERVATIONS,DESCRIPTIVE,122378,27038,Negative values are reported descriptively; they are not treated as invalid observations.
+PriceImpactDollar_Avg1_NEGATIVE_OBSERVATIONS,DESCRIPTIVE,122378,2150,Negative values are reported descriptively; they are not treated as invalid observations.
+PriceImpactPct_Avg1_NEGATIVE_OBSERVATIONS,DESCRIPTIVE,122378,2179,Negative values are reported descriptively; they are not treated as invalid observations.
+ESpreadDollar_VW1_NEGATIVE_OBSERVATIONS,DESCRIPTIVE,122382,0,Negative values are reported descriptively; they are not treated as invalid observations.
+ESpreadDollar_SW1_NEGATIVE_OBSERVATIONS,DESCRIPTIVE,122382,0,Negative values are reported descriptively; they are not treated as invalid observations.
+ESpreadPct_VW1_NEGATIVE_OBSERVATIONS,DESCRIPTIVE,122382,0,Negative values are reported descriptively; they are not treated as invalid observations.
+ESpreadPct_SW1_NEGATIVE_OBSERVATIONS,DESCRIPTIVE,122382,0,Negative values are reported descriptively; they are not treated as invalid observations.
+RSpreadDollar_SW1_NEGATIVE_OBSERVATIONS,DESCRIPTIVE,122378,14839,Negative values are reported descriptively; they are not treated as invalid observations.
+RSpreadDollar_VW1_NEGATIVE_OBSERVATIONS,DESCRIPTIVE,122378,14836,Negative values are reported descriptively; they are not treated as invalid observations.
+RSpreadPct_SW1_NEGATIVE_OBSERVATIONS,DESCRIPTIVE,122378,14873,Negative values are reported descriptively; they are not treated as invalid observations.
+RSpreadPct_VW1_NEGATIVE_OBSERVATIONS,DESCRIPTIVE,122378,14844,Negative values are reported descriptively; they are not treated as invalid observations.
+PriceImpactDollar_VW1_NEGATIVE_OBSERVATIONS,DESCRIPTIVE,122378,5099,Negative values are reported descriptively; they are not treated as invalid observations.
+PriceImpactDollar_SW1_NEGATIVE_OBSERVATIONS,DESCRIPTIVE,122378,5105,Negative values are reported descriptively; they are not treated as invalid observations.
+PriceImpactPct_VW1_NEGATIVE_OBSERVATIONS,DESCRIPTIVE,122378,5100,Negative values are reported descriptively; they are not treated as invalid observations.
+PriceImpactPct_SW1_NEGATIVE_OBSERVATIONS,DESCRIPTIVE,122378,5106,Negative values are reported descriptively; they are not treated as invalid observations.

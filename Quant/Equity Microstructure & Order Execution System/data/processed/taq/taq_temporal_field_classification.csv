@@ -1,0 +1,14 @@
+column,initial_classification,observed_value_form,final_temporal_classification,rationale
+QTime_1pm,TIMESTAMP_OR_TIME,TIME_ONLY,TIME_ONLY_EVENT_OR_SNAPSHOT,Observed values follow clock-time format without an embedded date.
+QTime_c1,TIMESTAMP_OR_TIME,TIME_ONLY,TIME_ONLY_EVENT_OR_SNAPSHOT,Observed values follow clock-time format without an embedded date.
+QTime_4pm,TIMESTAMP_OR_TIME,TIME_ONLY,TIME_ONLY_EVENT_OR_SNAPSHOT,Observed values follow clock-time format without an embedded date.
+LQTime,TIMESTAMP_OR_TIME,TIME_ONLY,TIME_ONLY_EVENT_OR_SNAPSHOT,Observed values follow clock-time format without an embedded date.
+OTime,TIMESTAMP_OR_TIME,TIME_ONLY,TIME_ONLY_EVENT_OR_SNAPSHOT,Observed values follow clock-time format without an embedded date.
+DTime,TIMESTAMP_OR_TIME,TIME_ONLY,TIME_ONLY_EVENT_OR_SNAPSHOT,Observed values follow clock-time format without an embedded date.
+LTTime,TIMESTAMP_OR_TIME,TIME_ONLY,TIME_ONLY_EVENT_OR_SNAPSHOT,Observed values follow clock-time format without an embedded date.
+TTime_1pm,TIMESTAMP_OR_TIME,TIME_ONLY,TIME_ONLY_EVENT_OR_SNAPSHOT,Observed values follow clock-time format without an embedded date.
+TTime_4pm,TIMESTAMP_OR_TIME,TIME_ONLY,TIME_ONLY_EVENT_OR_SNAPSHOT,Observed values follow clock-time format without an embedded date.
+CTime,TIMESTAMP_OR_TIME,TIME_ONLY,TIME_ONLY_EVENT_OR_SNAPSHOT,Observed values follow clock-time format without an embedded date.
+CTime2,TIMESTAMP_OR_TIME,TIME_ONLY,TIME_ONLY_EVENT_OR_SNAPSHOT,Observed values follow clock-time format without an embedded date.
+NumTimeUnitsWithTrade1,OBSERVATION_COUNT,NUMERIC,OBSERVATION_COUNT,"Despite containing the word 'Time', the field contains small numeric observation counts rather than clock timestamps."
+NumTimeUnitsWithTrade2,OBSERVATION_COUNT,NUMERIC,OBSERVATION_COUNT,"Despite containing the word 'Time', the field contains small numeric observation counts rather than clock timestamps."

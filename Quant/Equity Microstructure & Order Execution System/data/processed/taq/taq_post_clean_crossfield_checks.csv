@@ -1,0 +1,8 @@
+check_name,violations,rule,status
+quote_bid_ask_order,23564,Bid must not exceed Ask,REVIEW
+quote_midpoint_bounds,23564,Midpoint should lie between Bid and Ask,REVIEW
+quote_bid_positive,0,Bid should be positive when observed,PASS
+quote_ask_positive,0,Ask should be positive when observed,PASS
+positive_activity_fields,0,Activity/count/value fields must be nonnegative,PASS
+price_fields_nonnegative,0,Observed price fields must be nonnegative,PASS
+date_symbol_duplicate_candidates,74172,One canonical observation per date-symbol,REVIEW

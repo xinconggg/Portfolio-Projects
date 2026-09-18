@@ -1,0 +1,2 @@
+file,relative_path,file_type,compression,size_bytes,readable,column_count,security_identifier_columns,date_columns,quote_timestamp_columns,trade_event_timestamp_columns,quote_price_columns,trade_event_price_columns,trading_activity_columns,execution_metric_columns,market_statistic_columns,inferred_function,classification_basis
+taq.csv,data\raw\taq\taq.csv,csv,,110580156,True,102,1,1,4,7,12,7,13,18,8,DAILY_TAQ_DERIVED_MICROSTRUCTURE_SUMMARY,Observed schema and column semantics; not filename alone.

@@ -1,0 +1,2 @@
+file_id,filename,relative_path,full_path,directory,extension,file_type,compression,size_bytes,size_human,modified_timestamp,readable,read_error,approx_physical_lines,archive_member_count,archive_members
+1,taq.csv,data\raw\taq\taq.csv,C:\Users\Admin\Desktop\Python\Portfolio Projects\Quant\Equity Microstructure & Order Execution System\data\raw\taq\taq.csv,data\raw\taq,.csv,csv,,110580156,105.46 MB,2026-09-12T07:30:32,True,,122442,,
