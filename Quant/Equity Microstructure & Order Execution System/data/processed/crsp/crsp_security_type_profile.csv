@@ -1,0 +1,11 @@
+dimension,category,observations,unique_PERMNOs
+SecurityType,EQTY,169437,38
+SecurityType,FUND,14604,3
+SecuritySubType,COM,169437,38
+SecuritySubType,ETF,14604,3
+ShareType,NS,182560,40
+ShareType,AD,1481,1
+PrimaryExch,N,114093,27
+PrimaryExch,Q,55374,13
+PrimaryExch,A,9024,4
+PrimaryExch,R,5550,2

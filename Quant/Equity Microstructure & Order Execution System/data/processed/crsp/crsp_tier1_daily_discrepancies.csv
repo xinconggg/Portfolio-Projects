@@ -1,0 +1,8 @@
+PERMNO,PERMCO,Ticker,PrimaryExch,SecurityType,SecuritySubType,ShareType,SICCD,NAICS,in_names_universe,in_daily_file,has_daily_history,daily_first_date,daily_last_date,daily_observations,daily_trading_days,reconciliation_status,CUSIP,issuernm,shareclass,usincflg,issuertype,tradingstatusflg,tradingsymbol,SecurityBegDt,SecurityEndDt
+11260,,,,,,,,,False,True,True,1993-01-04,1998-11-12,1483.0,1483.0,DAILY_ONLY,,,,,,,,,
+13407,54084.0,FB,Q,EQTY,COM,NS,7375.0,519130.0,True,False,False,,,,,NAMES_ONLY,30303M10,FACEBOOK INC,A,Y,CORP,A,FB,2012-05-18,2025-12-31
+16424,20818.0,G,N,EQTY,COM,NS,3421.0,0.0,True,False,False,,,,,NAMES_ONLY,37576610,GILLETTE CO,,Y,CORP,A,G,1927-09-29,2005-09-30
+48071,,,,,,,,,False,True,True,1993-01-04,2000-12-29,2020.0,2020.0,DAILY_ONLY,,,,,,,,,
+50024,,,,,,,,,False,True,True,1993-01-04,1998-11-02,1475.0,1475.0,DAILY_ONLY,,,,,,,,,
+58827,,,,,,,,,False,True,True,1993-01-04,1998-09-30,1452.0,1452.0,DAILY_ONLY,,,,,,,,,
+75817,,,,,,,,,False,True,True,1993-01-04,1997-06-12,1124.0,1124.0,DAILY_ONLY,,,,,,,,,

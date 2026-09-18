@@ -1,0 +1,4 @@
+permno,permco,ticker,cusip,issuernm,securitytype,securitysubtype,issuertype,daily_first_date,daily_last_date,daily_observations,daily_trading_days,has_daily_history,exclusion_reason
+84398,46699.0,SPY,78462F10,SPDR TRUST,FUND,ETF,ACOR,1993-01-29,2018-12-31,6528.0,6528.0,True,FUND_OR_ETF
+86755,35013.0,QQQ,63110010,NASDAQ 100 TRUST SERIES I,FUND,ETF,ACOR,1999-03-10,2018-12-31,3398.0,3398.0,True,FUND_OR_ETF
+88222,37493.0,IWM,46428765,ISHARES TRUST,FUND,ETF,ACOR,2000-05-26,2018-12-31,4678.0,4678.0,True,FUND_OR_ETF

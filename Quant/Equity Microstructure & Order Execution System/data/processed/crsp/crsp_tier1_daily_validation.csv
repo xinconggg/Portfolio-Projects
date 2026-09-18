@@ -1,0 +1,13 @@
+check,status,value
+row_count_positive,True,161883
+unique_permnos_match,True,33
+no_duplicate_permno_date,True,0
+no_missing_permno,True,0
+no_fund_etf,True,0
+all_within_window,True,0
+all_eligible_present,True,0
+no_unexpected_permnos,True,0
+permco_consistency,True,0
+bid_ask_consistency_diagnostic,True,3060
+security_histories_complete,True,0
+permco_matches_eligible,True,0

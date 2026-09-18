@@ -1,0 +1,10 @@
+metric,value
+historical_universe_securities,36
+eligible_tier1_securities,33
+excluded_securities,3
+excluded_fund_etf,3
+excluded_no_daily_history,0
+excluded_outside_research_window,0
+eligible_unique_permnos,33
+eligible_unique_permcos,32
+eligible_unique_tickers,31

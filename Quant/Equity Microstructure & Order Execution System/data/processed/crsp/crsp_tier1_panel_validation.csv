@@ -1,0 +1,9 @@
+check,status
+row_count_positive,PASS
+expected_permnos,PASS
+no_duplicate_permno_date,PASS
+no_missing_permno,PASS
+no_missing_dates,PASS
+within_research_window,PASS
+sorted_by_permno_date,PASS
+security_summary_complete,PASS

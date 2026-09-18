@@ -1,0 +1,10 @@
+check,status
+daily_rows_positive,PASS
+daily_permnos_match,PASS
+no_duplicate_permno_date,PASS
+no_missing_permno,PASS
+no_unexpected_permnos,PASS
+all_within_research_window,PASS
+security_metadata_complete,PASS
+security_summary_complete,PASS
+diagnostics_retained,PASS

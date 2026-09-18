@@ -1,0 +1,10 @@
+metric,value
+names_unique_permnos,38
+daily_unique_permnos,41
+total_reconciled_permnos,43
+historical_universe_permnos,36
+names_only_permnos,2
+daily_only_permnos,5
+names_and_daily_permnos,36
+universe_unique_permcos,35
+universe_unique_tickers,34

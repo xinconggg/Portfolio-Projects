@@ -1,0 +1,26 @@
+metric,value
+input_rows,184053
+output_rows,184041
+rows_removed_total,12
+exact_duplicate_rows_removed,2
+duplicate_groups_collapsed,10
+unique_permnos,41
+unique_dates,6547
+duplicate_permno_date_keys_after_cleaning,0
+missing_dlyprc,1
+missing_dlyopen,120
+missing_dlyhigh,61
+missing_dlylow,61
+missing_dlyclose,61
+missing_dlyvol,1
+missing_dlynumtrd,128673
+missing_dlyret,13
+bid_gt_ask,3725
+low_gt_high,0
+open_outside_range,0
+close_outside_range,0
+invalid_permno,0
+invalid_date,0
+date_key_disagreements,0
+earliest_date,1993-01-04 00:00:00
+latest_date,2018-12-31 00:00:00

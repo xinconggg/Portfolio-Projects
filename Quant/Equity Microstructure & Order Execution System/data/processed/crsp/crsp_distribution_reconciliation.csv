@@ -1,0 +1,12 @@
+PERMNO,date,Ticker,daily_duplicate_count,daily_DisExDt,daily_DisDivAmt,daily_DisFacPr,daily_DisFacShr,distribution_match_count,distribution_DisDivAmt,distribution_DisFacPr,distribution_DisFacShr,distribution_types,distribution_sequence_numbers,daily_div_match,daily_facpr_match,daily_facshr_match,reconciliation_status
+10104,2012-12-12,ORCL,3,12/12/2012,0.06,0.0,0.0,3,0.06,0.0,0.0,CD,1|2|3,True,True,True,MATCH
+10107,2004-11-15,MSFT,2,15/11/2004,0.08|3.0,0.0,0.0,2,0.08|3.0,0.0,0.0,CD|SD,1|2,True,True,True,MATCH
+59328,1994-07-26,INTC,2,26/7/1994,0.005|0.06,0.0,0.0,2,0.005|0.06,0.0,0.0,CD,1|2,True,True,True,MATCH
+69032,2009-04-28,MS,2,28/4/2009,0.016667|0.05,0.0,0.0,2,0.016667|0.05,0.0,0.0,CD|SD,1|2,True,True,True,MATCH
+70519,2002-08-21,C,2,21/8/2002,0.712871|1.561387,0.020753|0.045455,0.0,2,0.712871|1.561387,0.020753|0.045455,0.0,SP,1|2,True,True,True,MATCH
+84398,1996-12-20,SPY,2,20/12/1996,0.12|0.28681,0.0,0.0,2,0.12|0.28681,0.0,0.0,CD|CG,1|2,True,True,True,MATCH
+88222,2000-12-13,IWM,2,13/12/2000,0.16471|0.26859,0.0,0.0,2,0.16471|0.26859,0.0,0.0,CD|CG,1|2,True,True,True,MATCH
+88222,2003-03-07,IWM,2,7/3/2003,0.0106|0.1494,0.0,0.0,2,0.0106|0.1494,0.0,0.0,CD|ROC,1|2,True,True,True,MATCH
+88222,2003-06-13,IWM,2,13/6/2003,0.0106|0.139,0.0,0.0,2,0.0106|0.139,0.0,0.0,CD|ROC,1|2,True,True,True,MATCH
+88222,2003-09-12,IWM,2,12/9/2003,0.0106|0.2265,0.0,0.0,2,0.0106|0.2265,0.0,0.0,CD|ROC,1|2,True,True,True,MATCH
+88222,2003-12-12,IWM,2,12/12/2003,0.0106|0.3641,0.0,0.0,2,0.0106|0.3641,0.0,0.0,CD|ROC,1|2,True,True,True,MATCH

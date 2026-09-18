@@ -1,0 +1,10 @@
+check,passed
+row_count_positive,True
+expected_permnos,True
+no_duplicate_permno_date,True
+no_missing_permno,True
+no_missing_dates,True
+within_research_window,True
+security_summary_complete,True
+execution_flags_present,True
+pretrade_feature_flags_present,True

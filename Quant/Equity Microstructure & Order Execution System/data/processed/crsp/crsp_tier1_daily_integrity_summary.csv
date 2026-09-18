@@ -1,0 +1,16 @@
+check,status,value
+no_negative_price,PASS,1
+no_negative_volume,PASS,1
+no_negative_bid,PASS,1
+no_negative_ask,PASS,1
+ohlc_structure_valid,PASS,1
+no_missing_daily_dates,PASS,1
+security_summary_complete,PASS,1
+eligible_permnos_complete,PASS,1
+all_within_research_window,PASS,1
+total_observations,INFO,161883
+total_securities,INFO,33
+crossed_quote_rows,DIAGNOSTIC,3060
+return_outlier_rows,DIAGNOSTIC,9
+price_jump_rows,DIAGNOSTIC,36
+zero_volume_rows,DIAGNOSTIC,57

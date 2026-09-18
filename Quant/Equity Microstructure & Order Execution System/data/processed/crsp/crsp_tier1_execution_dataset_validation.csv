@@ -1,0 +1,8 @@
+check,passed
+row_count_positive,True
+expected_permnos,True
+no_duplicate_permno_date,True
+no_missing_permno,True
+all_within_research_window,True
+security_summary_complete,True
+execution_flags_present,True

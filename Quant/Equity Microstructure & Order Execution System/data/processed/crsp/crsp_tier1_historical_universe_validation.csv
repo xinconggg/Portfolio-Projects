@@ -1,0 +1,2 @@
+historical_universe_rows,unique_permnos,unique_permcos,unique_tickers,missing_permno,duplicate_permno_rows,missing_daily_history,invalid_historical_overlap,etf_fund_count,excluded_permno_contamination,missing_reconciliation,missing_names
+36,36,35,34,0,0,0,0,3,0,0,0
